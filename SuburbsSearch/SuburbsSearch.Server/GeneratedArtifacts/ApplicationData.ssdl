@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ApplicationDataStore" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="ApplicationDataStore">
+    <EntitySet Name="Suburbs" EntityType="ApplicationDataStore.Suburb" store:Type="Tables" Schema="dbo" Table="Suburbs" />
+    <EntitySet Name="Matters" EntityType="ApplicationDataStore.Matter" store:Type="Tables" Schema="dbo" Table="Matters" />
+    <EntitySet Name="Contacts" EntityType="ApplicationDataStore.Contact" store:Type="Tables" Schema="dbo" Table="Contacts" />
+    <AssociationSet Name="Matter_Suburb" Association="ApplicationDataStore.Matter_Suburb">
+      <End Role="Suburb" EntitySet="Suburbs" />
+      <End Role="Matter" EntitySet="Matters" />
+    </AssociationSet>
+    <AssociationSet Name="Matter_Contact" Association="ApplicationDataStore.Matter_Contact">
+      <End Role="Contact" EntitySet="Contacts" />
+      <End Role="Matter" EntitySet="Matters" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Suburb">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Locality" Type="nvarchar" MaxLength="255" />
+    <Property Name="PostCode" Type="nvarchar" MaxLength="255" />
+    <Property Name="RowVersion" Type="rowversion" Nullable="false" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="Matter">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="255" />
+    <Property Name="Created" Type="datetimeoffset" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="255" />
+    <Property Name="Modified" Type="datetimeoffset" />
+    <Property Name="RowVersion" Type="rowversion" Nullable="false" StoreGeneratedPattern="Computed" />
+    <Property Name="Matter_Suburb" Type="int" />
+    <Property Name="Matter_Contact" Type="int" />
+  </EntityType>
+  <EntityType Name="Contact">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="255" />
+    <Property Name="Created" Type="datetimeoffset" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="255" />
+    <Property Name="Modified" Type="datetimeoffset" />
+    <Property Name="RowVersion" Type="rowversion" Nullable="false" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <Association Name="Matter_Suburb">
+    <End Role="Suburb" Type="ApplicationDataStore.Suburb" Multiplicity="0..1">
+      <OnDeleteAnnotation Action="Restrict" xmlns="http://schemas.microsoft.com/LightSwitch/2013/edm/annotations" />
+    </End>
+    <End Role="Matter" Type="ApplicationDataStore.Matter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Suburb">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Matter">
+        <PropertyRef Name="Matter_Suburb" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Matter_Contact">
+    <End Role="Contact" Type="ApplicationDataStore.Contact" Multiplicity="0..1">
+      <OnDeleteAnnotation Action="Restrict" xmlns="http://schemas.microsoft.com/LightSwitch/2013/edm/annotations" />
+    </End>
+    <End Role="Matter" Type="ApplicationDataStore.Matter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Contact">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Matter">
+        <PropertyRef Name="Matter_Contact" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

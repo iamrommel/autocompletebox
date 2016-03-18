@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Properties\Client.lsml" Checksum="E77DCC2D4504EC1A138A6AB1DDAF57AD9C4C45211EE36A0A8BE15992025E588E" />
+    <Document FullPath="C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Properties\Proxies.lsml" Checksum="2CD6EABAEAABC16B4BCECA704EBEBBE47EC5C88C9A638F4B2D5A1F04637F6F28" />
+    <Document FullPath="C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Screens\SearchSuburb.lsml" Checksum="BBAD3E68E68AD7165BF8BA16EFE708CBCDDE4B324380350131A44BD9A6BD70EC" />
+    <Document FullPath="C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Screens\ContactsScreen.lsml" Checksum="846DE19E8339576F74F428E4ED7B86CCD0597463818BB76ADB58534F48C20EE4" />
+    <Document FullPath="C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Screens\SuburbScreen.lsml" Checksum="ED5CDACD79FE0AABEDAE6EB551EA8321C8441CF4C4E14D807811F9A4A9C4A339" />
+    <Document FullPath="C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Screens\MatterScreen.lsml" Checksum="E7D982D848FD2CB8C39FB15B8977EB781DD718E88DE84660DEABF9C24910AE63" />
+  </Documents>
+</ModelDocumentManifest>

@@ -1,0 +1,7 @@
+SuburbsSearch.Server.Properties.Service.lsml
+SuburbsSearch.Server.Properties.DataSources.ApplicationData.lsml
+SuburbsSearch.Server.DataSources.ApplicationData.Suburbs.lsml
+SuburbsSearch.Server.DataSources.ApplicationData.SuburbByLocality.lsml
+SuburbsSearch.Server.DataSources.ApplicationData.Matters.lsml
+SuburbsSearch.Server.DataSources.ApplicationData.Contacts.lsml
+SuburbsSearch.Server.DataSources.ApplicationData.ContactByName.lsml

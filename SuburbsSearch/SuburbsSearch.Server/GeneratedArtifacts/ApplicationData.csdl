@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" Namespace="LightSwitchApplication" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityType Name="Suburb">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Edm.Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Locality" Type="Edm.String" MaxLength="255" />
+    <Property Name="PostCode" Type="Edm.String" MaxLength="255" />
+    <Property Name="RowVersion" Type="Edm.Binary" Nullable="false" ConcurrencyMode="Fixed" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="Matters" Relationship="LightSwitchApplication.Matter_Suburb" ToRole="Matter" FromRole="Suburb" />
+  </EntityType>
+  <EntityType Name="Matter">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Edm.Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="Edm.String" Nullable="false" MaxLength="255" />
+    <Property Name="Matter_Suburb" Type="Edm.Int32" />
+    <Property Name="Matter_Contact" Type="Edm.Int32" />
+    <Property Name="CreatedBy" Type="Edm.String" MaxLength="255" />
+    <Property Name="Created" Type="Edm.DateTimeOffset" />
+    <Property Name="ModifiedBy" Type="Edm.String" MaxLength="255" />
+    <Property Name="Modified" Type="Edm.DateTimeOffset" />
+    <Property Name="RowVersion" Type="Edm.Binary" Nullable="false" ConcurrencyMode="Fixed" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="Suburb" Relationship="LightSwitchApplication.Matter_Suburb" ToRole="Suburb" FromRole="Matter" />
+    <NavigationProperty Name="Contact" Relationship="LightSwitchApplication.Matter_Contact" ToRole="Contact" FromRole="Matter" />
+  </EntityType>
+  <EntityType Name="Contact">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Edm.Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="Edm.String" Nullable="false" MaxLength="255" />
+    <Property Name="CreatedBy" Type="Edm.String" MaxLength="255" />
+    <Property Name="Created" Type="Edm.DateTimeOffset" />
+    <Property Name="ModifiedBy" Type="Edm.String" MaxLength="255" />
+    <Property Name="Modified" Type="Edm.DateTimeOffset" />
+    <Property Name="RowVersion" Type="Edm.Binary" Nullable="false" ConcurrencyMode="Fixed" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="Matters" Relationship="LightSwitchApplication.Matter_Contact" ToRole="Matter" FromRole="Contact" />
+  </EntityType>
+  <Association Name="Matter_Suburb">
+    <End Role="Suburb" Type="LightSwitchApplication.Suburb" Multiplicity="0..1" />
+    <End Role="Matter" Type="LightSwitchApplication.Matter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Suburb">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Matter">
+        <PropertyRef Name="Matter_Suburb" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Matter_Contact">
+    <End Role="Contact" Type="LightSwitchApplication.Contact" Multiplicity="0..1" />
+    <End Role="Matter" Type="LightSwitchApplication.Matter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Contact">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Matter">
+        <PropertyRef Name="Matter_Contact" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ApplicationData" m:IsDefaultEntityContainer="true">
+    <EntitySet Name="Suburbs" EntityType="LightSwitchApplication.Suburb" />
+    <EntitySet Name="Matters" EntityType="LightSwitchApplication.Matter" />
+    <EntitySet Name="Contacts" EntityType="LightSwitchApplication.Contact" />
+    <AssociationSet Name="Matter_Suburb" Association="LightSwitchApplication.Matter_Suburb">
+      <End Role="Suburb" EntitySet="Suburbs" />
+      <End Role="Matter" EntitySet="Matters" />
+    </AssociationSet>
+    <AssociationSet Name="Matter_Contact" Association="LightSwitchApplication.Matter_Contact">
+      <End Role="Contact" EntitySet="Contacts" />
+      <End Role="Matter" EntitySet="Matters" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

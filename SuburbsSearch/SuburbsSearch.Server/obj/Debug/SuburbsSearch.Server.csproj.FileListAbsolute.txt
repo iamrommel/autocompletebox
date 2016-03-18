@@ -1,0 +1,80 @@
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\LSSvcGeneratorsTask.mcs
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\LSResourceGeneratorsTask.mcs
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\LSServerCodeGeneratorsTask.mcs
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Application.Server.dll.config
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Application.Server.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Application.Server.pdb
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.Data.Edm.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.Data.OData.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.Data.Services.Client.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.Data.Services.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.AppBridge.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.CodeMarker.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.ExportProvider.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.Extensions.Server.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.ManifestService.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.Model.Xaml.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.Server.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.Server.Host.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.DomainServices.EntityFramework.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.DomainServices.Hosting.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.DomainServices.Hosting.OData.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.DomainServices.Server.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.PollingDuplex.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.Spatial.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.WindowsAzure.ServiceRuntime.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.Server.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.DomainServices.EntityFramework.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.DomainServices.Hosting.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.DomainServices.Hosting.OData.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.DomainServices.Server.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\obj\Debug\SuburbsSearch.Server.csprojResolveAssemblyReference.cache
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\obj\Debug\Application.Server.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\obj\Debug\Application.Server.pdb
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.DomainServices.Client.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.DomainServices.Client.Web.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.DomainServices.Client.Web.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\LSSvcGeneratorsTask.mcs
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\LSResourceGeneratorsTask.mcs
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\LSServerCodeGeneratorsTask.mcs
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Application.Server.dll.config
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Application.Server.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Application.Server.pdb
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.Data.Edm.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.Data.OData.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.Data.Services.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.AppBridge.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.CodeMarker.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.ExportProvider.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.Extensions.Server.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.ManifestService.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.Model.Xaml.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.Server.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.Server.Host.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.DomainServices.EntityFramework.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.DomainServices.Hosting.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.DomainServices.Hosting.OData.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.DomainServices.Server.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.PollingDuplex.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.Spatial.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.WindowsAzure.ServiceRuntime.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\WindowsAzureTelemetryEvents.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\WindowsAzureEventSource.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.DomainServices.Client.Web.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\Microsoft.LightSwitch.Server.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.DomainServices.EntityFramework.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.DomainServices.Hosting.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.DomainServices.Hosting.OData.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\bin\Debug\System.ServiceModel.DomainServices.Server.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\obj\Debug\SuburbsSearch.Server.csprojResolveAssemblyReference.cache
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\obj\Debug\Application.Server.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\obj\Debug\Application.Server.pdb

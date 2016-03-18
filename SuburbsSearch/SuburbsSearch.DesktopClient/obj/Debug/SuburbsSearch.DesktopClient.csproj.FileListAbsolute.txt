@@ -1,0 +1,124 @@
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\LSResourceGeneratorsTask.mcs
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\LSClientCodeGeneratorsTask.mcs
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\SuburbsSearch.DesktopClient.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\SuburbsSearch.DesktopClient.pdb
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\AppManifest.xaml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\SuburbsSearch.DesktopClient.xap
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\XapCache.tmp
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.CSharp.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.Data.Edm.SL.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.Data.Services.Client.SL.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.Base.Client.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.Client.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.Client.Internal.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.CodeMarker.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.Cosmopolitan.Client.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.ExportProvider.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.Extensions.Client.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.Extensions.Design.Client.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.ManifestService.Client.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.Model.Xaml.Client.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.RuntimeEditor.Internal.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.SDKProxy.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ComponentModel.Composition.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ServiceModel.Extensions.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ServiceModel.PollingDuplex.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ServiceModel.Web.Extensions.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.Data.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.Data.Input.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.Input.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.Navigation.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Data.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Xml.Linq.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.Data.OData.SL.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Xml.Serialization.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Spatial.SL.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.Client.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ComponentModel.Composition.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ServiceModel.Extensions.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ServiceModel.PollingDuplex.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ServiceModel.Web.Extensions.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.Data.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.Data.Input.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.Input.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.Navigation.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Data.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Xml.Linq.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.CSharp.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Xml.Serialization.xml
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\obj\Debug\SuburbsSearch.DesktopClient.csprojResolveAssemblyReference.cache
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\obj\Debug\SuburbsSearch.DesktopClient.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\obj\Debug\SuburbsSearch.DesktopClient.pdb
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ServiceModel.DomainServices.Client.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ServiceModel.DomainServices.Client.Web.dll
+c:\users\sande\documents\visual studio 2015\Projects\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ServiceModel.DomainServices.Client.Web.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\LSResourceGeneratorsTask.mcs
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\LSClientCodeGeneratorsTask.mcs
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\SuburbsSearch.DesktopClient.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\SuburbsSearch.DesktopClient.pdb
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\AppManifest.xaml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\SuburbsSearch.DesktopClient.xap
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\XapCache.tmp
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.CSharp.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.Data.Edm.SL.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.Data.Services.Client.SL.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.Base.Client.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.Client.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.Client.Internal.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.CodeMarker.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.Cosmopolitan.Client.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.ExportProvider.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.Extensions.Client.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.Extensions.Design.Client.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.ManifestService.Client.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.Model.Xaml.Client.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.RuntimeEditor.Internal.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.SDKProxy.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ComponentModel.Composition.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ServiceModel.DomainServices.Client.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ServiceModel.DomainServices.Client.Web.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ServiceModel.Extensions.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ServiceModel.PollingDuplex.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ServiceModel.Web.Extensions.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.Data.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.DomainServices.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.Input.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.Navigation.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Data.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Xml.Linq.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.Data.OData.SL.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Xml.Serialization.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Spatial.SL.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.LightSwitch.Client.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ComponentModel.Composition.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ServiceModel.DomainServices.Client.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ServiceModel.Extensions.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ServiceModel.DomainServices.Client.Web.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ServiceModel.PollingDuplex.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.ServiceModel.Web.Extensions.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.Data.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.Input.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.Navigation.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Controls.DomainServices.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Windows.Data.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Xml.Linq.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\Microsoft.CSharp.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\Bin\Debug\System.Xml.Serialization.xml
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\obj\Debug\SuburbsSearch.DesktopClient.csprojResolveAssemblyReference.cache
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\obj\Debug\SuburbsSearch.DesktopClient.dll
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\obj\Debug\SuburbsSearch.DesktopClient.pdb
+C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.DesktopClient\obj\Debug\SuburbsSearch.DesktopClient.g.resources
