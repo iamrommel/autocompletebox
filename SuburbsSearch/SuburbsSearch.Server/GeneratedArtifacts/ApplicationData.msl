@@ -1,12 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
   <EntityContainerMapping CdmEntityContainer="ApplicationData" StorageEntityContainer="ApplicationDataStore">
-    <EntitySetMapping Name="Suburbs">
-      <EntityTypeMapping TypeName="IsTypeOf(LightSwitchApplication.Suburb)">
-        <MappingFragment StoreEntitySet="Suburbs">
+    <EntitySetMapping Name="Contacts">
+      <EntityTypeMapping TypeName="IsTypeOf(LightSwitchApplication.Contact)">
+        <MappingFragment StoreEntitySet="Contacts">
           <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="Locality" ColumnName="Locality" />
-          <ScalarProperty Name="PostCode" ColumnName="PostCode" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="Modified" ColumnName="Modified" />
           <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
         </MappingFragment>
       </EntityTypeMapping>
@@ -26,9 +29,20 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Contacts">
-      <EntityTypeMapping TypeName="IsTypeOf(LightSwitchApplication.Contact)">
-        <MappingFragment StoreEntitySet="Contacts">
+    <EntitySetMapping Name="Suburbs">
+      <EntityTypeMapping TypeName="IsTypeOf(LightSwitchApplication.Suburb)">
+        <MappingFragment StoreEntitySet="Suburbs">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Locality" ColumnName="Locality" />
+          <ScalarProperty Name="PostCode" ColumnName="PostCode" />
+          <ScalarProperty Name="Suburb_State" ColumnName="Suburb_State" />
+          <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="States">
+      <EntityTypeMapping TypeName="IsTypeOf(LightSwitchApplication.State)">
+        <MappingFragment StoreEntitySet="States">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />

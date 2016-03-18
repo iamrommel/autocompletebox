@@ -25,4 +25,4 @@
     <ExtensionAssembly>Microsoft.LightSwitch.Cosmopolitan.Client, Version=14.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35</ExtensionAssembly>
     <ExtensionAssembly>Microsoft.LightSwitch.Extensions.Client, Version=14.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35</ExtensionAssembly>
   <ExtensionAssembly>Microsoft.LightSwitch.Extensions.Design.Client, Version=14.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</ExtensionAssembly></ExtensionAssemblies>
-<ApplicationCulture>en-US</ApplicationCulture><SupportedCultures>en-US</SupportedCultures><ManifestTimeStamp>131027509842158428</ManifestTimeStamp><ApplicationName>SuburbsSearch</ApplicationName><Version>1.0.0.0</Version><RootProjectGuid>{2e76b072-2608-4284-ac07-7f9e52c0e62f}</RootProjectGuid></Configuration>
+<ApplicationCulture>en-US</ApplicationCulture><SupportedCultures>en-US</SupportedCultures><ManifestTimeStamp>131027545176579457</ManifestTimeStamp><ApplicationName>SuburbsSearch</ApplicationName><Version>1.0.0.0</Version><RootProjectGuid>{2e76b072-2608-4284-ac07-7f9e52c0e62f}</RootProjectGuid></Configuration>

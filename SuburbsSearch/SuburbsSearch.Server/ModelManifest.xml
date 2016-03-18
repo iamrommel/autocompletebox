@@ -1,12 +1,14 @@
 <?xml version="1.0"?>
 <ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Documents>
-    <Document FullPath="C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\DataSources\ApplicationData\Suburbs.lsml" Checksum="5F54DF130240798CF9DE57A954EF130F3E3884041B6469A7D404FD9F945DAFCC" />
-    <Document FullPath="C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\DataSources\ApplicationData\SuburbByLocality.lsml" Checksum="650A5A4EB74B5CE699A63B0372285089941E4C112AAE654B485572C9EF23DDBF" />
-    <Document FullPath="C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\Properties\DataSources\ApplicationData.lsml" Checksum="E6FEEAC3B4A850AAC5F0029259A0B9F8C1BD45F2950D17BD8D6664B9422E6AD6" />
-    <Document FullPath="C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\Properties\Service.lsml" Checksum="679C78F29C5AF23E9956A773B0E46DF90F7B86CADA0B79571E5896A1C79F5B70" />
-    <Document FullPath="C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\DataSources\ApplicationData\Matters.lsml" Checksum="859BD1F03873E169E7F73FA42A7BF0D384D3947778A1A7A98D91E0003EC8BDEB" />
-    <Document FullPath="C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\DataSources\ApplicationData\Contacts.lsml" Checksum="A4BA16A68760B19997835F025B9C3883E51FC5F45B8436D2D68F56E3AB17E202" />
-    <Document FullPath="C:\Apps\mattercentre.visualstudio.com\SuburbsSearch\SuburbsSearch\SuburbsSearch.Server\DataSources\ApplicationData\ContactByName.lsml" Checksum="8B71E4636D9F299C1792F4D6ADEF1D2F4C561B4817B3DC95FCA1FE0E53363C13" />
+    <Document FullPath="C:\Apps\github.com\autocompletebox\SuburbsSearch\SuburbsSearch.Server\DataSources\ApplicationData\Contacts.lsml" Checksum="A4BA16A68760B19997835F025B9C3883E51FC5F45B8436D2D68F56E3AB17E202" />
+    <Document FullPath="C:\Apps\github.com\autocompletebox\SuburbsSearch\SuburbsSearch.Server\DataSources\ApplicationData\ContactByName.lsml" Checksum="8B71E4636D9F299C1792F4D6ADEF1D2F4C561B4817B3DC95FCA1FE0E53363C13" />
+    <Document FullPath="C:\Apps\github.com\autocompletebox\SuburbsSearch\SuburbsSearch.Server\DataSources\ApplicationData\Matters.lsml" Checksum="859BD1F03873E169E7F73FA42A7BF0D384D3947778A1A7A98D91E0003EC8BDEB" />
+    <Document FullPath="C:\Apps\github.com\autocompletebox\SuburbsSearch\SuburbsSearch.Server\DataSources\ApplicationData\MatterBySuburb.lsml" Checksum="E7FCD2F77840EDCC75E90C10675E5BB3109A3AA57574C9E6B6C35B37CCF82615" />
+    <Document FullPath="C:\Apps\github.com\autocompletebox\SuburbsSearch\SuburbsSearch.Server\DataSources\ApplicationData\States.lsml" Checksum="1BD90AF1696A4883719340D6A612A3EA7072778658D16395D0E841C7156B6958" />
+    <Document FullPath="C:\Apps\github.com\autocompletebox\SuburbsSearch\SuburbsSearch.Server\DataSources\ApplicationData\Suburbs.lsml" Checksum="5D65571735B403B140A757CAB54341E59921D0EC170E33926552028B3AED0BEF" />
+    <Document FullPath="C:\Apps\github.com\autocompletebox\SuburbsSearch\SuburbsSearch.Server\DataSources\ApplicationData\SuburbByLocality.lsml" Checksum="650A5A4EB74B5CE699A63B0372285089941E4C112AAE654B485572C9EF23DDBF" />
+    <Document FullPath="C:\Apps\github.com\autocompletebox\SuburbsSearch\SuburbsSearch.Server\Properties\DataSources\ApplicationData.lsml" Checksum="E6FEEAC3B4A850AAC5F0029259A0B9F8C1BD45F2950D17BD8D6664B9422E6AD6" />
+    <Document FullPath="C:\Apps\github.com\autocompletebox\SuburbsSearch\SuburbsSearch.Server\Properties\Service.lsml" Checksum="679C78F29C5AF23E9956A773B0E46DF90F7B86CADA0B79571E5896A1C79F5B70" />
   </Documents>
 </ModelDocumentManifest>

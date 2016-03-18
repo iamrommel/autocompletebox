@@ -218,6 +218,10 @@
     <LightSwitchModel Include="DataSources\ApplicationData\ContactByName.lsml">
       <DependentUpon>Contacts.lsml</DependentUpon>
     </LightSwitchModel>
+    <LightSwitchModel Include="DataSources\ApplicationData\MatterBySuburb.lsml">
+      <DependentUpon>Matters.lsml</DependentUpon>
+    </LightSwitchModel>
+    <LightSwitchModel Include="DataSources\ApplicationData\States.lsml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -10,26 +10,41 @@
 namespace LightSwitchApplication.Implementation
 {
     
-    #region Suburb
+    #region Contact
     [global::System.Runtime.Serialization.DataContract(Namespace = "http://schemas.datacontract.org/2004/07/ApplicationData.Implementation")]
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "14.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    public partial class Suburb :
-        global::LightSwitchApplication.Suburb.DetailsClass.IImplementation
+    public partial class Contact :
+        global::LightSwitchApplication.Contact.DetailsClass.IImplementation
     {
         partial void OnIdChanged()
         {
             this.___OnPropertyChanged("Id");
         }
         
-        partial void OnLocalityChanged()
+        partial void OnNameChanged()
         {
-            this.___OnPropertyChanged("Locality");
+            this.___OnPropertyChanged("Name");
         }
         
-        partial void OnPostCodeChanged()
+        partial void OnCreatedByChanged()
         {
-            this.___OnPropertyChanged("PostCode");
+            this.___OnPropertyChanged("CreatedBy");
+        }
+        
+        partial void OnCreatedChanged()
+        {
+            this.___OnPropertyChanged("Created");
+        }
+        
+        partial void OnModifiedByChanged()
+        {
+            this.___OnPropertyChanged("ModifiedBy");
+        }
+        
+        partial void OnModifiedChanged()
+        {
+            this.___OnPropertyChanged("Modified");
         }
         
         partial void OnRowVersionChanged()
@@ -37,7 +52,7 @@ namespace LightSwitchApplication.Implementation
             this.___OnPropertyChanged("RowVersion");
         }
         
-        global::System.Collections.IEnumerable global::LightSwitchApplication.Suburb.DetailsClass.IImplementation.Matters
+        global::System.Collections.IEnumerable global::LightSwitchApplication.Contact.DetailsClass.IImplementation.Matters
         {
             get
             {
@@ -55,7 +70,7 @@ namespace LightSwitchApplication.Implementation
                         this,
                         "Matters",
                         () => this._Matters,
-                        e => global::System.Object.Equals(e.Matter_Suburb, this.Id));
+                        e => global::System.Object.Equals(e.Matter_Contact, this.Id));
                 }
                 return this.___Matters;
             }
@@ -187,12 +202,106 @@ namespace LightSwitchApplication.Implementation
     }
     #endregion
     
-    #region Contact
+    #region Suburb
     [global::System.Runtime.Serialization.DataContract(Namespace = "http://schemas.datacontract.org/2004/07/ApplicationData.Implementation")]
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "14.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    public partial class Contact :
-        global::LightSwitchApplication.Contact.DetailsClass.IImplementation
+    public partial class Suburb :
+        global::LightSwitchApplication.Suburb.DetailsClass.IImplementation
+    {
+        partial void OnSuburb_StateChanged()
+        {
+            this.___OnPropertyChanged("Suburb_State");
+            this.___OnPropertyChanged("State");
+        }
+        
+        partial void OnIdChanged()
+        {
+            this.___OnPropertyChanged("Id");
+        }
+        
+        partial void OnLocalityChanged()
+        {
+            this.___OnPropertyChanged("Locality");
+        }
+        
+        partial void OnPostCodeChanged()
+        {
+            this.___OnPropertyChanged("PostCode");
+        }
+        
+        partial void OnRowVersionChanged()
+        {
+            this.___OnPropertyChanged("RowVersion");
+        }
+        
+        global::System.Collections.IEnumerable global::LightSwitchApplication.Suburb.DetailsClass.IImplementation.Matters
+        {
+            get
+            {
+                return this.Matters;
+            }
+        }
+        
+        internal global::Microsoft.LightSwitch.ClientGenerated.Implementation.EntityRefCollection<global::LightSwitchApplication.Implementation.Matter> __Matters
+        {
+            get
+            {
+                if (this.___Matters == null)
+                {
+                    this.___Matters = new global::Microsoft.LightSwitch.ClientGenerated.Implementation.EntityRefCollection<global::LightSwitchApplication.Implementation.Matter>(
+                        this,
+                        "Matters",
+                        () => this._Matters,
+                        e => global::System.Object.Equals(e.Matter_Suburb, this.Id));
+                }
+                return this.___Matters;
+            }
+        }
+        
+        private global::Microsoft.LightSwitch.ClientGenerated.Implementation.EntityRefCollection<global::LightSwitchApplication.Implementation.Matter> ___Matters;
+        
+        global::Microsoft.LightSwitch.Internal.IEntityImplementation global::LightSwitchApplication.Suburb.DetailsClass.IImplementation.State
+        {
+            get
+            {
+                return this.State;
+            }
+            set
+            {
+                this.State = (global::LightSwitchApplication.Implementation.State)value;
+            }
+        }
+        
+        private global::Microsoft.LightSwitch.ClientGenerated.Implementation.EntityRef<global::LightSwitchApplication.Implementation.State> __State
+        {
+            get
+            {
+                if (this.___State == null)
+                {
+                    this.___State = new global::Microsoft.LightSwitch.ClientGenerated.Implementation.EntityRef<global::LightSwitchApplication.Implementation.State>(
+                        this,
+                        "State",
+                        new string[] { "Suburb_State" },
+                        e => global::System.Object.Equals(e.Id, this.Suburb_State),
+                        () => this._State,
+                        e => this._State = e);
+                }
+                return this.___State;
+            }
+        }
+        
+        private global::Microsoft.LightSwitch.ClientGenerated.Implementation.EntityRef<global::LightSwitchApplication.Implementation.State> ___State;
+        
+    }
+    #endregion
+    
+    #region State
+    [global::System.Runtime.Serialization.DataContract(Namespace = "http://schemas.datacontract.org/2004/07/ApplicationData.Implementation")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "14.0.0.0")]
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    public partial class State :
+        global::LightSwitchApplication.State.DetailsClass.IImplementation
     {
         partial void OnIdChanged()
         {
@@ -229,31 +338,31 @@ namespace LightSwitchApplication.Implementation
             this.___OnPropertyChanged("RowVersion");
         }
         
-        global::System.Collections.IEnumerable global::LightSwitchApplication.Contact.DetailsClass.IImplementation.Matters
+        global::System.Collections.IEnumerable global::LightSwitchApplication.State.DetailsClass.IImplementation.Suburbs
         {
             get
             {
-                return this.Matters;
+                return this.Suburbs;
             }
         }
         
-        internal global::Microsoft.LightSwitch.ClientGenerated.Implementation.EntityRefCollection<global::LightSwitchApplication.Implementation.Matter> __Matters
+        internal global::Microsoft.LightSwitch.ClientGenerated.Implementation.EntityRefCollection<global::LightSwitchApplication.Implementation.Suburb> __Suburbs
         {
             get
             {
-                if (this.___Matters == null)
+                if (this.___Suburbs == null)
                 {
-                    this.___Matters = new global::Microsoft.LightSwitch.ClientGenerated.Implementation.EntityRefCollection<global::LightSwitchApplication.Implementation.Matter>(
+                    this.___Suburbs = new global::Microsoft.LightSwitch.ClientGenerated.Implementation.EntityRefCollection<global::LightSwitchApplication.Implementation.Suburb>(
                         this,
-                        "Matters",
-                        () => this._Matters,
-                        e => global::System.Object.Equals(e.Matter_Contact, this.Id));
+                        "Suburbs",
+                        () => this._Suburbs,
+                        e => global::System.Object.Equals(e.Suburb_State, this.Id));
                 }
-                return this.___Matters;
+                return this.___Suburbs;
             }
         }
         
-        private global::Microsoft.LightSwitch.ClientGenerated.Implementation.EntityRefCollection<global::LightSwitchApplication.Implementation.Matter> ___Matters;
+        private global::Microsoft.LightSwitch.ClientGenerated.Implementation.EntityRefCollection<global::LightSwitchApplication.Implementation.Suburb> ___Suburbs;
         
     }
     #endregion
@@ -265,17 +374,21 @@ namespace LightSwitchApplication.Implementation
     {
         protected override global::Microsoft.LightSwitch.Internal.IEntityImplementation CreateEntityImplementation<T>()
         {
-            if (typeof(T) == typeof(global::LightSwitchApplication.Suburb))
+            if (typeof(T) == typeof(global::LightSwitchApplication.Contact))
             {
-                return new global::LightSwitchApplication.Implementation.Suburb();
+                return new global::LightSwitchApplication.Implementation.Contact();
             }
             if (typeof(T) == typeof(global::LightSwitchApplication.Matter))
             {
                 return new global::LightSwitchApplication.Implementation.Matter();
             }
-            if (typeof(T) == typeof(global::LightSwitchApplication.Contact))
+            if (typeof(T) == typeof(global::LightSwitchApplication.Suburb))
             {
-                return new global::LightSwitchApplication.Implementation.Contact();
+                return new global::LightSwitchApplication.Implementation.Suburb();
+            }
+            if (typeof(T) == typeof(global::LightSwitchApplication.State))
+            {
+                return new global::LightSwitchApplication.Implementation.State();
             }
             return null;
         }
@@ -326,17 +439,21 @@ namespace LightSwitchApplication.Implementation
     {
         global::System.Type global::Microsoft.LightSwitch.Internal.ITypeMappingProvider.GetImplementationType(global::System.Type definitionType)
         {
-            if (typeof(global::LightSwitchApplication.Suburb) == definitionType)
+            if (typeof(global::LightSwitchApplication.Contact) == definitionType)
             {
-                return typeof(global::LightSwitchApplication.Implementation.Suburb);
+                return typeof(global::LightSwitchApplication.Implementation.Contact);
             }
             if (typeof(global::LightSwitchApplication.Matter) == definitionType)
             {
                 return typeof(global::LightSwitchApplication.Implementation.Matter);
             }
-            if (typeof(global::LightSwitchApplication.Contact) == definitionType)
+            if (typeof(global::LightSwitchApplication.Suburb) == definitionType)
             {
-                return typeof(global::LightSwitchApplication.Implementation.Contact);
+                return typeof(global::LightSwitchApplication.Implementation.Suburb);
+            }
+            if (typeof(global::LightSwitchApplication.State) == definitionType)
+            {
+                return typeof(global::LightSwitchApplication.Implementation.State);
             }
             return null;
         }

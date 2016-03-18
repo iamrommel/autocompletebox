@@ -5,7 +5,10 @@
     <Partial />
   </ServiceApplication.Attributes>
   <EntityType
-    Name="Suburb">
+    Name="State">
+    <EntityType.Attributes>
+      <CreatedModifiedPropertiesEnabled />
+    </EntityType.Attributes>
     <EntityType.Methods>
       <EntityMethod
         Name="Delete">
@@ -24,31 +27,59 @@
         </KeyProperty.Attributes>
       </KeyProperty>
       <EntityProperty
-        Name="Locality"
-        PropertyType=":String?">
+        Name="Name"
+        PropertyType=":String">
         <EntityProperty.Attributes>
+          <Required />
+          <MaxLength
+            Value="255" />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <NavigationProperty
+        Name="Suburbs"
+        Association="Suburb_State"
+        FromEnd="State"
+        ToEnd="Suburb" />
+      <EntityProperty
+        Name="CreatedBy"
+        IsReadOnly="True"
+        PropertyType=":Person?">
+        <EntityProperty.Attributes>
+          <Generated />
+          <NotSearchable />
           <MaxLength
             Value="255" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
-        Name="PostCode"
-        PropertyType=":String?">
+        Name="Created"
+        IsReadOnly="True"
+        PropertyType=":DateTimeOffset?">
         <EntityProperty.Attributes>
+          <Generated />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="ModifiedBy"
+        IsReadOnly="True"
+        PropertyType=":Person?">
+        <EntityProperty.Attributes>
+          <Generated />
+          <NotSearchable />
           <MaxLength
             Value="255" />
         </EntityProperty.Attributes>
       </EntityProperty>
-      <NavigationProperty
-        Name="Matters"
-        Association="Matter_Suburb"
-        FromEnd="Suburb"
-        ToEnd="Matter" />
-      <NavigationProperty
-        Name="State"
-        Association="Suburb_State"
-        FromEnd="Suburb"
-        ToEnd="State" />
+      <EntityProperty
+        Name="Modified"
+        IsReadOnly="True"
+        PropertyType=":DateTimeOffset?">
+        <EntityProperty.Attributes>
+          <Generated />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
       <EntityProperty
         Name="RowVersion"
         PropertyType=":RowVersion">
@@ -67,14 +98,14 @@
       <Partial />
     </EntityContainer.Attributes>
     <EntitySet
-      Name="Suburbs"
+      Name="States"
       CanDelete="True"
       CanInsert="True"
       CanUpdate="True"
-      EntityType="Suburb" />
+      EntityType="State" />
     <QueryOperation
-      Name="Suburbs_Single"
-      ReturnType="Suburb">
+      Name="States_Single"
+      ReturnType="State">
       <QueryOperation.Attributes>
         <Generated />
         <Description
@@ -100,7 +131,7 @@
       <QueryOperation.Source>
         <QuerySourceExpressionTree>
           <MemberExpression
-            Member="Suburbs" />
+            Member="States" />
         </QuerySourceExpressionTree>
       </QueryOperation.Source>
       <QueryOperationParameter
@@ -113,8 +144,8 @@
       </QueryOperationParameter>
     </QueryOperation>
     <QueryOperation
-      Name="Suburbs_SingleOrDefault"
-      ReturnType="Suburb">
+      Name="States_SingleOrDefault"
+      ReturnType="State">
       <QueryOperation.Attributes>
         <Generated />
         <Description
@@ -140,7 +171,7 @@
       <QueryOperation.Source>
         <QuerySourceExpressionTree>
           <MemberExpression
-            Member="Suburbs" />
+            Member="States" />
         </QuerySourceExpressionTree>
       </QueryOperation.Source>
       <QueryOperationParameter
@@ -153,25 +184,25 @@
       </QueryOperationParameter>
     </QueryOperation>
     <AssociationSet
-      Name="Matter_Suburbs"
-      Association="Matter_Suburb">
-      <AssociationSetEnd
-        Name="Matter"
-        EntitySet="Matters" />
+      Name="Suburb_States"
+      Association="Suburb_State">
       <AssociationSetEnd
         Name="Suburb"
         EntitySet="Suburbs" />
+      <AssociationSetEnd
+        Name="State"
+        EntitySet="States" />
     </AssociationSet>
   </EntityContainer>
   <Association
-    Name="Matter_Suburb">
-    <AssociationEnd
-      Name="Matter"
-      Multiplicity="Many"
-      EntityType="Matter" />
+    Name="Suburb_State">
     <AssociationEnd
       Name="Suburb"
-      EntityType="Suburb">
+      Multiplicity="Many"
+      EntityType="Suburb" />
+    <AssociationEnd
+      Name="State"
+      EntityType="State">
       <AssociationEnd.Attributes>
         <DeleteRule
           Action="Restrict" />
@@ -184,19 +215,19 @@
       <Partial />
     </DataService.Attributes>
     <AssociationSetMapping
-      AssociationSet="Matter_Suburbs">
+      AssociationSet="Suburb_States">
       <AssociationSetMapping.Attributes>
         <SsdlAssociationSet
-          Name="Matter_Suburbs" />
+          Name="Suburb_States" />
         <SsdlAssociationSetEnd
-          End="ApplicationData/Members[Matter_Suburbs]/Members[Matter]">
+          End="ApplicationData/Members[Suburb_States]/Members[Suburb]">
           <SsdlAssociationSetEnd.Attributes>
             <SsdlPropertyRef
-              Name="Matter_Suburb" />
+              Name="Suburb_State" />
           </SsdlAssociationSetEnd.Attributes>
         </SsdlAssociationSetEnd>
         <SsdlAssociationSetEnd
-          End="ApplicationData/Members[Matter_Suburbs]/Members[Suburb]">
+          End="ApplicationData/Members[Suburb_States]/Members[State]">
           <SsdlAssociationSetEnd.Attributes>
             <SsdlPropertyRef
               Name="Id" />
@@ -204,14 +235,5 @@
         </SsdlAssociationSetEnd>
       </AssociationSetMapping.Attributes>
     </AssociationSetMapping>
-    <EntitySetMapping
-      EntitySet="Suburbs">
-      <EntitySetMapping.Attributes>
-        <SsdlForeignKeyProperty
-          Name="Suburb_State"
-          Nullable="True"
-          Type="int" />
-      </EntitySetMapping.Attributes>
-    </EntitySetMapping>
   </DataService>
 </ServiceApplication>

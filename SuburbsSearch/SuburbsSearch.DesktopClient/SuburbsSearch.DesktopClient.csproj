@@ -234,6 +234,9 @@
     <Compile Include="Screens\MatterScreen.lsml.cs">
       <DependentUpon>MatterScreen.lsml</DependentUpon>
     </Compile>
+    <Compile Include="Screens\SearchMatterScreen.lsml.cs">
+      <DependentUpon>SearchMatterScreen.lsml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <LightSwitchModel Include="Properties\Client.lsml">
@@ -246,6 +249,8 @@
     <LightSwitchModel Include="Screens\ContactsScreen.lsml" />
     <LightSwitchModel Include="Screens\SuburbScreen.lsml" />
     <LightSwitchModel Include="Screens\MatterScreen.lsml" />
+    <LightSwitchModel Include="Screens\SearchMatterScreen.lsml" />
+    <LightSwitchModel Include="Screens\EditableStatesGrid.lsml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="UserCode\" />

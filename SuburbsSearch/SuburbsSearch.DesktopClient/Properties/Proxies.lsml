@@ -40,4 +40,16 @@
         Target="ServiceInterface:Matter_Contact" />
     </Association.Attributes>
   </Association>
+  <EntityType>
+    <EntityType.Attributes>
+      <Proxy
+        Target="ServiceInterface:State" />
+    </EntityType.Attributes>
+  </EntityType>
+  <Association>
+    <Association.Attributes>
+      <Proxy
+        Target="ServiceInterface:Suburb_State" />
+    </Association.Attributes>
+  </Association>
 </Application>

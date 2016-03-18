@@ -12,6 +12,7 @@ namespace LightSwitchApplication
         partial void Contacts_Updating(Contact entity)
         {
             //do not let this to be updated
+            //TODO: this should look for the ID, but for simplicity the name
             if (entity.Name == "***Add New")
                 entity.Details.DiscardChanges();
 

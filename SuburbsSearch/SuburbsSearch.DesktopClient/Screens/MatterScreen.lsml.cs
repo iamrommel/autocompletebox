@@ -97,7 +97,6 @@ namespace LightSwitchApplication
 
         }
 
-        private bool _beenHere;
         private void AutomComplete_DropDownClosed(object sender, System.Windows.RoutedPropertyChangedEventArgs<bool> e)
         {
             var automComplete = sender as AutoCompleteBox;
@@ -112,7 +111,6 @@ namespace LightSwitchApplication
             //TODO: Should compare for Id and not the name, but for the sake of simplicity that should do it
             if (contact.Name != "***Add New" /* && _beenHere */)
             {
-
                 return;
             };
 
@@ -122,7 +120,6 @@ namespace LightSwitchApplication
             {
                 if (Matters.SelectedItem.Contact.Details.EntityState != EntityState.Added)
                 {
-                    _beenHere = true;
                     if (_newContact != null)
                         _newContact.Details.DiscardChanges();
 
@@ -137,37 +134,6 @@ namespace LightSwitchApplication
         }
 
         private Contact _newContact;
-        private void ContactAutoComplete_DropDownClosing(object sender, RoutedPropertyChangingEventArgs<bool> e)
-        {
-            var automComplete = sender as AutoCompleteBox;
-            if (automComplete == null) return;
-            var itemWrapper = automComplete.SelectedItem as AutoCompleteBoxVisual.TemplateContentItemWrapper;
-            if (itemWrapper == null) return;
-
-            var contact = itemWrapper.Value as Contact;
-            if (contact == null) return;
-
-            //do the saving here
-            //TODO: Should compare for Id and not the name, but for the sake of simplicity that should do it
-            if (contact.Name != "***Add New") return;
-
-            this.Details.Dispatcher.BeginInvoke(() =>
-            {
-                if (_newContact == null || _newContact.Details.EntityState == EntityState.Modified)
-                {
-                    //create a new contact and assign it
-                    var _newContact = this.DataWorkspace.ApplicationData.Contacts.AddNew();
-                    _newContact.Name = "TODO: Your New Name Here";
-
-                    //set it on the current selected matter
-                    this.Matters.SelectedItem.Contact = _newContact;
-                }
-            });
-
-
-
-
-        }
 
         private void OnContactAutoCompleteOnPopulating(object sender, PopulatingEventArgs e)
         {
@@ -179,12 +145,7 @@ namespace LightSwitchApplication
 
         #endregion
 
-        partial void MatterListAddAndEditNew_CanExecute(ref bool result)
-        {
-            // Write your code here.
-
-        }
-
+        
         partial void MatterListAddAndEditNew_Execute()
         {
             this.Matters.AddNew();

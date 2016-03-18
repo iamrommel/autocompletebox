@@ -4,7 +4,7 @@
     <EnableENC>False</EnableENC>
     <ProjectView>ProjectFiles</ProjectView>
     <StartUpClientProject>SuburbsSearch.DesktopClient</StartUpClientProject>
-    <SchemaManagementLastSsdlWriteTime>635938719794376785</SchemaManagementLastSsdlWriteTime>
+    <SchemaManagementLastSsdlWriteTime>635938774501910571</SchemaManagementLastSsdlWriteTime>
     <SchemaManagementSchemaBuildState>0</SchemaManagementSchemaBuildState>
   </PropertyGroup>
 </Project>

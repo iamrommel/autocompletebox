@@ -5,3 +5,5 @@ SuburbsSearch.Server.DataSources.ApplicationData.SuburbByLocality.lsml
 SuburbsSearch.Server.DataSources.ApplicationData.Matters.lsml
 SuburbsSearch.Server.DataSources.ApplicationData.Contacts.lsml
 SuburbsSearch.Server.DataSources.ApplicationData.ContactByName.lsml
+SuburbsSearch.Server.DataSources.ApplicationData.MatterBySuburb.lsml
+SuburbsSearch.Server.DataSources.ApplicationData.States.lsml

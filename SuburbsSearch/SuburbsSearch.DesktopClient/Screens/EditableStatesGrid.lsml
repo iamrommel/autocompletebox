@@ -5,7 +5,7 @@
     <Partial />
   </Application.Attributes>
   <Screen
-    Name="SuburbScreen">
+    Name="EditableStatesGrid">
     <Screen.Attributes>
       <SaveChangesTo
         EntityContainer="ApplicationData" />
@@ -21,83 +21,99 @@
           <ContentItem
             Name="grid"
             Kind="Collection"
-            DataType="CollectionView$Suburb">
+            DataType="CollectionView$State">
             <ContentItem.DataSource>
               <ScreenExpressionTree>
                 <ChainExpression>
                   <MemberExpression
-                    Member="SuburbScreen/Properties[Suburbs]" />
+                    Member="EditableStatesGrid/Properties[States]" />
                 </ChainExpression>
               </ScreenExpressionTree>
             </ContentItem.DataSource>
             <ContentItem
               Name="RowTemplate"
               Kind="Details"
-              DataType="Suburb">
+              DataType="State">
               <ContentItem.DataSource>
                 <ScreenExpressionTree>
                   <ChainExpression />
                 </ScreenExpressionTree>
               </ContentItem.DataSource>
               <ContentItem
-                Name="Locality"
+                Name="Name"
                 Kind="Value"
-                DataType=":String?">
+                DataType=":String">
                 <ContentItem.DataSource>
                   <ScreenExpressionTree>
                     <ChainExpression>
                       <MemberExpression
-                        Member="Suburb/Properties[Locality]" />
+                        Member="State/Properties[Name]" />
                     </ChainExpression>
                   </ScreenExpressionTree>
                 </ContentItem.DataSource>
               </ContentItem>
               <ContentItem
-                Name="PostCode"
+                Name="CreatedBy"
                 Kind="Value"
-                DataType=":String?">
+                DataType=":Person?">
                 <ContentItem.DataSource>
                   <ScreenExpressionTree>
                     <ChainExpression>
                       <MemberExpression
-                        Member="Suburb/Properties[PostCode]" />
+                        Member="State/Properties[CreatedBy]" />
                     </ChainExpression>
                   </ScreenExpressionTree>
                 </ContentItem.DataSource>
               </ContentItem>
               <ContentItem
-                Name="State"
-                Kind="Details"
-                DataType="State">
+                Name="Created"
+                Kind="Value"
+                DataType=":DateTimeOffset?">
                 <ContentItem.DataSource>
                   <ScreenExpressionTree>
                     <ChainExpression>
                       <MemberExpression
-                        Member="Suburb/Properties[State]" />
+                        Member="State/Properties[Created]" />
                     </ChainExpression>
                   </ScreenExpressionTree>
                 </ContentItem.DataSource>
-                <ContentItem
-                  Name="State1"
-                  Kind="Details"
-                  DataType="State">
-                  <ContentItem.DataSource>
-                    <ScreenExpressionTree>
-                      <ChainExpression />
-                    </ScreenExpressionTree>
-                  </ContentItem.DataSource>
-                </ContentItem>
+              </ContentItem>
+              <ContentItem
+                Name="ModifiedBy"
+                Kind="Value"
+                DataType=":Person?">
+                <ContentItem.DataSource>
+                  <ScreenExpressionTree>
+                    <ChainExpression>
+                      <MemberExpression
+                        Member="State/Properties[ModifiedBy]" />
+                    </ChainExpression>
+                  </ScreenExpressionTree>
+                </ContentItem.DataSource>
+              </ContentItem>
+              <ContentItem
+                Name="Modified"
+                Kind="Value"
+                DataType=":DateTimeOffset?">
+                <ContentItem.DataSource>
+                  <ScreenExpressionTree>
+                    <ChainExpression>
+                      <MemberExpression
+                        Member="State/Properties[Modified]" />
+                    </ChainExpression>
+                  </ScreenExpressionTree>
+                </ContentItem.DataSource>
               </ContentItem>
             </ContentItem>
             <ContentItem.CommandItems>
               <ContentItem
-                Name="Suburbs_AddAndEditNew"
+                Name="States_AddAndEditNew"
                 Kind="Command">
                 <ContentItem.DataSource>
                   <ScreenExpressionTree>
                     <ChainExpression>
                       <MemberExpression
-                        Member="SuburbScreen/Properties[Suburbs]" />
+                        Member="EditableStatesGrid/Properties[States]" />
                       <CallExpression
                         Target="AddAndEditNew" />
                     </ChainExpression>
@@ -105,13 +121,13 @@
                 </ContentItem.DataSource>
               </ContentItem>
               <ContentItem
-                Name="Suburbs_EditSelected"
+                Name="States_EditSelected"
                 Kind="Command">
                 <ContentItem.DataSource>
                   <ScreenExpressionTree>
                     <ChainExpression>
                       <MemberExpression
-                        Member="SuburbScreen/Properties[Suburbs]" />
+                        Member="EditableStatesGrid/Properties[States]" />
                       <CallExpression
                         Target="EditSelected" />
                     </ChainExpression>
@@ -119,13 +135,13 @@
                 </ContentItem.DataSource>
               </ContentItem>
               <ContentItem
-                Name="Suburbs_DeleteSelected"
+                Name="States_DeleteSelected"
                 Kind="Command">
                 <ContentItem.DataSource>
                   <ScreenExpressionTree>
                     <ChainExpression>
                       <MemberExpression
-                        Member="SuburbScreen/Properties[Suburbs]" />
+                        Member="EditableStatesGrid/Properties[States]" />
                       <CallExpression
                         Target="DeleteSelected" />
                     </ChainExpression>
@@ -165,7 +181,7 @@
               <ScreenExpressionTree>
                 <ChainExpression>
                   <CallExpression
-                    Target="SuburbScreen/Methods[Save]" />
+                    Target="EditableStatesGrid/Methods[Save]" />
                 </ChainExpression>
               </ScreenExpressionTree>
             </ContentItem.DataSource>
@@ -177,7 +193,7 @@
               <ScreenExpressionTree>
                 <ChainExpression>
                   <CallExpression
-                    Target="SuburbScreen/Methods[Refresh]" />
+                    Target="EditableStatesGrid/Methods[Refresh]" />
                 </ChainExpression>
               </ScreenExpressionTree>
             </ContentItem.DataSource>
@@ -217,20 +233,20 @@
     </Screen.Methods>
     <Screen.Properties>
       <ScreenCollectionProperty
-        Name="Suburbs"
+        Name="States"
         PageSize="45"
-        PropertyType="CollectionView$Suburb">
+        PropertyType="CollectionView$State">
         <ScreenCollectionProperty.Query>
           <ScreenQueryDefinition
-            Name="SuburbsQuery"
-            ReturnType="Suburb*">
+            Name="StatesQuery"
+            ReturnType="State*">
             <ScreenQueryDefinition.FilterExpression>
               <QueryFilterExpressionTree />
             </ScreenQueryDefinition.FilterExpression>
             <ScreenQueryDefinition.Source>
               <QuerySourceExpressionTree>
                 <MemberExpression
-                  Member="ApplicationData/Members[Suburbs]" />
+                  Member="ApplicationData/Members[States]" />
               </QuerySourceExpressionTree>
             </ScreenQueryDefinition.Source>
           </ScreenQueryDefinition>
@@ -238,7 +254,7 @@
         <ScreenExpressionTree>
           <ChainExpression>
             <CallExpression
-              Target="SuburbScreen/Properties[Suburbs]/Query" />
+              Target="EditableStatesGrid/Properties[States]/Query" />
           </ChainExpression>
         </ScreenExpressionTree>
       </ScreenCollectionProperty>
@@ -246,10 +262,10 @@
   </Screen>
   <Application.Methods>
     <ApplicationMethod
-      Name="ShowSuburbScreen">
+      Name="ShowEditableStatesGrid">
       <ApplicationMethod.Attributes>
         <ShowScreenMethod
-          TargetScreen="SuburbScreen" />
+          TargetScreen="EditableStatesGrid" />
       </ApplicationMethod.Attributes>
     </ApplicationMethod>
   </Application.Methods>

@@ -60,40 +60,40 @@ namespace LightSwitchApplication
         #region Server Interceptions Points
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Suburbs_CanInsert(ref bool result);
+        partial void Contacts_CanInsert(ref bool result);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Suburbs_CanUpdate(ref bool result);
+        partial void Contacts_CanUpdate(ref bool result);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Suburbs_CanDelete(ref bool result);
+        partial void Contacts_CanDelete(ref bool result);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Suburbs_CanRead(ref bool result);
+        partial void Contacts_CanRead(ref bool result);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Suburbs_Inserting(global::LightSwitchApplication.Suburb entity);
+        partial void Contacts_Inserting(global::LightSwitchApplication.Contact entity);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Suburbs_Inserted(global::LightSwitchApplication.Suburb entity);
+        partial void Contacts_Inserted(global::LightSwitchApplication.Contact entity);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Suburbs_Updating(global::LightSwitchApplication.Suburb entity);
+        partial void Contacts_Updating(global::LightSwitchApplication.Contact entity);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Suburbs_Updated(global::LightSwitchApplication.Suburb entity);
+        partial void Contacts_Updated(global::LightSwitchApplication.Contact entity);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Suburbs_Deleting(global::LightSwitchApplication.Suburb entity);
+        partial void Contacts_Deleting(global::LightSwitchApplication.Contact entity);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Suburbs_Deleted(global::LightSwitchApplication.Suburb entity);
+        partial void Contacts_Deleted(global::LightSwitchApplication.Contact entity);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Suburbs_Validate(global::LightSwitchApplication.Suburb entity, global::Microsoft.LightSwitch.EntitySetValidationResultsBuilder results);
+        partial void Contacts_Validate(global::LightSwitchApplication.Contact entity, global::Microsoft.LightSwitch.EntitySetValidationResultsBuilder results);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Suburbs_Filter(ref global::System.Linq.Expressions.Expression<global::System.Func<global::LightSwitchApplication.Suburb, bool>> filter);
+        partial void Contacts_Filter(ref global::System.Linq.Expressions.Expression<global::System.Func<global::LightSwitchApplication.Contact, bool>> filter);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         partial void Matters_CanInsert(ref bool result);
@@ -132,40 +132,76 @@ namespace LightSwitchApplication
         partial void Matters_Filter(ref global::System.Linq.Expressions.Expression<global::System.Func<global::LightSwitchApplication.Matter, bool>> filter);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Contacts_CanInsert(ref bool result);
+        partial void Suburbs_CanInsert(ref bool result);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Contacts_CanUpdate(ref bool result);
+        partial void Suburbs_CanUpdate(ref bool result);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Contacts_CanDelete(ref bool result);
+        partial void Suburbs_CanDelete(ref bool result);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Contacts_CanRead(ref bool result);
+        partial void Suburbs_CanRead(ref bool result);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Contacts_Inserting(global::LightSwitchApplication.Contact entity);
+        partial void Suburbs_Inserting(global::LightSwitchApplication.Suburb entity);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Contacts_Inserted(global::LightSwitchApplication.Contact entity);
+        partial void Suburbs_Inserted(global::LightSwitchApplication.Suburb entity);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Contacts_Updating(global::LightSwitchApplication.Contact entity);
+        partial void Suburbs_Updating(global::LightSwitchApplication.Suburb entity);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Contacts_Updated(global::LightSwitchApplication.Contact entity);
+        partial void Suburbs_Updated(global::LightSwitchApplication.Suburb entity);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Contacts_Deleting(global::LightSwitchApplication.Contact entity);
+        partial void Suburbs_Deleting(global::LightSwitchApplication.Suburb entity);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Contacts_Deleted(global::LightSwitchApplication.Contact entity);
+        partial void Suburbs_Deleted(global::LightSwitchApplication.Suburb entity);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Contacts_Validate(global::LightSwitchApplication.Contact entity, global::Microsoft.LightSwitch.EntitySetValidationResultsBuilder results);
+        partial void Suburbs_Validate(global::LightSwitchApplication.Suburb entity, global::Microsoft.LightSwitch.EntitySetValidationResultsBuilder results);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void Contacts_Filter(ref global::System.Linq.Expressions.Expression<global::System.Func<global::LightSwitchApplication.Contact, bool>> filter);
+        partial void Suburbs_Filter(ref global::System.Linq.Expressions.Expression<global::System.Func<global::LightSwitchApplication.Suburb, bool>> filter);
+    
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void States_CanInsert(ref bool result);
+    
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void States_CanUpdate(ref bool result);
+    
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void States_CanDelete(ref bool result);
+    
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void States_CanRead(ref bool result);
+    
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void States_Inserting(global::LightSwitchApplication.State entity);
+    
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void States_Inserted(global::LightSwitchApplication.State entity);
+    
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void States_Updating(global::LightSwitchApplication.State entity);
+    
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void States_Updated(global::LightSwitchApplication.State entity);
+    
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void States_Deleting(global::LightSwitchApplication.State entity);
+    
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void States_Deleted(global::LightSwitchApplication.State entity);
+    
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void States_Validate(global::LightSwitchApplication.State entity, global::Microsoft.LightSwitch.EntitySetValidationResultsBuilder results);
+    
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void States_Filter(ref global::System.Linq.Expressions.Expression<global::System.Func<global::LightSwitchApplication.State, bool>> filter);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         partial void SaveChanges_CanExecute(ref bool result);
@@ -178,6 +214,21 @@ namespace LightSwitchApplication
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         partial void SaveChanges_ExecuteFailed(global::System.Exception exception);
+    
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void ContactByName_CanExecute(ref bool result);
+    
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
+        partial void ContactByName_Executing(string Name);
+    
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void ContactByName_PreprocessQuery(string Name, ref global::System.Linq.IQueryable<global::LightSwitchApplication.Contact> query);
+    
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
+        partial void ContactByName_Executed(string Name, global::System.Collections.Generic.IEnumerable<global::LightSwitchApplication.Contact> result);
+    
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
+        partial void ContactByName_ExecuteFailed(string Name, global::System.Exception exception);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         partial void SuburbByLocality_CanExecute(ref bool result);
@@ -195,19 +246,19 @@ namespace LightSwitchApplication
         partial void SuburbByLocality_ExecuteFailed(string Locality, global::System.Exception exception);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void ContactByName_CanExecute(ref bool result);
+        partial void MatterBySuburb_CanExecute(ref bool result);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
-        partial void ContactByName_Executing(string Name);
+        partial void MatterBySuburb_Executing(string SuburbLocality);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void ContactByName_PreprocessQuery(string Name, ref global::System.Linq.IQueryable<global::LightSwitchApplication.Contact> query);
+        partial void MatterBySuburb_PreprocessQuery(string SuburbLocality, ref global::System.Linq.IQueryable<global::LightSwitchApplication.Matter> query);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
-        partial void ContactByName_Executed(string Name, global::System.Collections.Generic.IEnumerable<global::LightSwitchApplication.Contact> result);
+        partial void MatterBySuburb_Executed(string SuburbLocality, global::System.Collections.Generic.IEnumerable<global::LightSwitchApplication.Matter> result);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
-        partial void ContactByName_ExecuteFailed(string Name, global::System.Exception exception);
+        partial void MatterBySuburb_ExecuteFailed(string SuburbLocality, global::System.Exception exception);
     
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         partial void Query_Executing(global::Microsoft.LightSwitch.QueryExecutingDescriptor queryDescriptor);
@@ -238,77 +289,77 @@ namespace LightSwitchApplication
             
             [global::System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
             [global::System.Diagnostics.DebuggerBrowsable(global::System.Diagnostics.DebuggerBrowsableState.Never)]
-            private static readonly global::Microsoft.LightSwitch.Details.Framework.Server.EntitySetEntry<global::LightSwitchApplication.ApplicationDataService, global::LightSwitchApplication.Suburb>
-                __SuburbsEntry = new global::Microsoft.LightSwitch.Details.Framework.Server.EntitySetEntry<global::LightSwitchApplication.ApplicationDataService, global::LightSwitchApplication.Suburb>(
-                    "Suburbs",
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_CanInsert,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_CanUpdate,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_CanDelete,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_CanRead,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_Inserting,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_Inserted,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_Updating,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_Updated,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_Deleting,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_Deleted,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_Validate,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_Filter);
-            private static bool __Suburbs_CanInsert(global::LightSwitchApplication.ApplicationDataService d)
+            private static readonly global::Microsoft.LightSwitch.Details.Framework.Server.EntitySetEntry<global::LightSwitchApplication.ApplicationDataService, global::LightSwitchApplication.Contact>
+                __ContactsEntry = new global::Microsoft.LightSwitch.Details.Framework.Server.EntitySetEntry<global::LightSwitchApplication.ApplicationDataService, global::LightSwitchApplication.Contact>(
+                    "Contacts",
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_CanInsert,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_CanUpdate,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_CanDelete,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_CanRead,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_Inserting,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_Inserted,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_Updating,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_Updated,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_Deleting,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_Deleted,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_Validate,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_Filter);
+            private static bool __Contacts_CanInsert(global::LightSwitchApplication.ApplicationDataService d)
             {
                 bool result = true;
-                d.Suburbs_CanInsert(ref result);
+                d.Contacts_CanInsert(ref result);
                 return result;
             }
-            private static bool __Suburbs_CanUpdate(global::LightSwitchApplication.ApplicationDataService d)
+            private static bool __Contacts_CanUpdate(global::LightSwitchApplication.ApplicationDataService d)
             {
                 bool result = true;
-                d.Suburbs_CanUpdate(ref result);
+                d.Contacts_CanUpdate(ref result);
                 return result;
             }
-            private static bool __Suburbs_CanDelete(global::LightSwitchApplication.ApplicationDataService d)
+            private static bool __Contacts_CanDelete(global::LightSwitchApplication.ApplicationDataService d)
             {
                 bool result = true;
-                d.Suburbs_CanDelete(ref result);
+                d.Contacts_CanDelete(ref result);
                 return result;
             }
-            private static bool __Suburbs_CanRead(global::LightSwitchApplication.ApplicationDataService d)
+            private static bool __Contacts_CanRead(global::LightSwitchApplication.ApplicationDataService d)
             {
                 bool result = true;
-                d.Suburbs_CanRead(ref result);
+                d.Contacts_CanRead(ref result);
                 return result;
             }
-            private static void __Suburbs_Inserting(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Suburb e)
+            private static void __Contacts_Inserting(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Contact e)
             {
-                d.Suburbs_Inserting(e);
+                d.Contacts_Inserting(e);
             }
-            private static void __Suburbs_Inserted(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Suburb e)
+            private static void __Contacts_Inserted(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Contact e)
             {
-                d.Suburbs_Inserted(e);
+                d.Contacts_Inserted(e);
             }
-            private static void __Suburbs_Updating(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Suburb e)
+            private static void __Contacts_Updating(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Contact e)
             {
-                d.Suburbs_Updating(e);
+                d.Contacts_Updating(e);
             }
-            private static void __Suburbs_Updated(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Suburb e)
+            private static void __Contacts_Updated(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Contact e)
             {
-                d.Suburbs_Updated(e);
+                d.Contacts_Updated(e);
             }
-            private static void __Suburbs_Deleting(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Suburb e)
+            private static void __Contacts_Deleting(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Contact e)
             {
-                d.Suburbs_Deleting(e);
+                d.Contacts_Deleting(e);
             }
-            private static void __Suburbs_Deleted(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Suburb e)
+            private static void __Contacts_Deleted(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Contact e)
             {
-                d.Suburbs_Deleted(e);
+                d.Contacts_Deleted(e);
             }
-            private static void __Suburbs_Validate(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Suburb e, global::Microsoft.LightSwitch.EntitySetValidationResultsBuilder r)
+            private static void __Contacts_Validate(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Contact e, global::Microsoft.LightSwitch.EntitySetValidationResultsBuilder r)
             {
-                d.Suburbs_Validate(e, r);
+                d.Contacts_Validate(e, r);
             }
-            private static global::System.Linq.Expressions.Expression<global::System.Func<global::LightSwitchApplication.Suburb, bool>> __Suburbs_Filter(global::LightSwitchApplication.ApplicationDataService d)
+            private static global::System.Linq.Expressions.Expression<global::System.Func<global::LightSwitchApplication.Contact, bool>> __Contacts_Filter(global::LightSwitchApplication.ApplicationDataService d)
             {
-                global::System.Linq.Expressions.Expression<global::System.Func<global::LightSwitchApplication.Suburb, bool>> filter = null;
-                d.Suburbs_Filter(ref filter);
+                global::System.Linq.Expressions.Expression<global::System.Func<global::LightSwitchApplication.Contact, bool>> filter = null;
+                d.Contacts_Filter(ref filter);
                 return filter;
             }
             
@@ -390,77 +441,153 @@ namespace LightSwitchApplication
             
             [global::System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
             [global::System.Diagnostics.DebuggerBrowsable(global::System.Diagnostics.DebuggerBrowsableState.Never)]
-            private static readonly global::Microsoft.LightSwitch.Details.Framework.Server.EntitySetEntry<global::LightSwitchApplication.ApplicationDataService, global::LightSwitchApplication.Contact>
-                __ContactsEntry = new global::Microsoft.LightSwitch.Details.Framework.Server.EntitySetEntry<global::LightSwitchApplication.ApplicationDataService, global::LightSwitchApplication.Contact>(
-                    "Contacts",
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_CanInsert,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_CanUpdate,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_CanDelete,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_CanRead,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_Inserting,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_Inserted,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_Updating,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_Updated,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_Deleting,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_Deleted,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_Validate,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Contacts_Filter);
-            private static bool __Contacts_CanInsert(global::LightSwitchApplication.ApplicationDataService d)
+            private static readonly global::Microsoft.LightSwitch.Details.Framework.Server.EntitySetEntry<global::LightSwitchApplication.ApplicationDataService, global::LightSwitchApplication.Suburb>
+                __SuburbsEntry = new global::Microsoft.LightSwitch.Details.Framework.Server.EntitySetEntry<global::LightSwitchApplication.ApplicationDataService, global::LightSwitchApplication.Suburb>(
+                    "Suburbs",
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_CanInsert,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_CanUpdate,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_CanDelete,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_CanRead,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_Inserting,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_Inserted,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_Updating,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_Updated,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_Deleting,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_Deleted,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_Validate,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__Suburbs_Filter);
+            private static bool __Suburbs_CanInsert(global::LightSwitchApplication.ApplicationDataService d)
             {
                 bool result = true;
-                d.Contacts_CanInsert(ref result);
+                d.Suburbs_CanInsert(ref result);
                 return result;
             }
-            private static bool __Contacts_CanUpdate(global::LightSwitchApplication.ApplicationDataService d)
+            private static bool __Suburbs_CanUpdate(global::LightSwitchApplication.ApplicationDataService d)
             {
                 bool result = true;
-                d.Contacts_CanUpdate(ref result);
+                d.Suburbs_CanUpdate(ref result);
                 return result;
             }
-            private static bool __Contacts_CanDelete(global::LightSwitchApplication.ApplicationDataService d)
+            private static bool __Suburbs_CanDelete(global::LightSwitchApplication.ApplicationDataService d)
             {
                 bool result = true;
-                d.Contacts_CanDelete(ref result);
+                d.Suburbs_CanDelete(ref result);
                 return result;
             }
-            private static bool __Contacts_CanRead(global::LightSwitchApplication.ApplicationDataService d)
+            private static bool __Suburbs_CanRead(global::LightSwitchApplication.ApplicationDataService d)
             {
                 bool result = true;
-                d.Contacts_CanRead(ref result);
+                d.Suburbs_CanRead(ref result);
                 return result;
             }
-            private static void __Contacts_Inserting(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Contact e)
+            private static void __Suburbs_Inserting(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Suburb e)
             {
-                d.Contacts_Inserting(e);
+                d.Suburbs_Inserting(e);
             }
-            private static void __Contacts_Inserted(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Contact e)
+            private static void __Suburbs_Inserted(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Suburb e)
             {
-                d.Contacts_Inserted(e);
+                d.Suburbs_Inserted(e);
             }
-            private static void __Contacts_Updating(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Contact e)
+            private static void __Suburbs_Updating(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Suburb e)
             {
-                d.Contacts_Updating(e);
+                d.Suburbs_Updating(e);
             }
-            private static void __Contacts_Updated(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Contact e)
+            private static void __Suburbs_Updated(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Suburb e)
             {
-                d.Contacts_Updated(e);
+                d.Suburbs_Updated(e);
             }
-            private static void __Contacts_Deleting(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Contact e)
+            private static void __Suburbs_Deleting(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Suburb e)
             {
-                d.Contacts_Deleting(e);
+                d.Suburbs_Deleting(e);
             }
-            private static void __Contacts_Deleted(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Contact e)
+            private static void __Suburbs_Deleted(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Suburb e)
             {
-                d.Contacts_Deleted(e);
+                d.Suburbs_Deleted(e);
             }
-            private static void __Contacts_Validate(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Contact e, global::Microsoft.LightSwitch.EntitySetValidationResultsBuilder r)
+            private static void __Suburbs_Validate(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.Suburb e, global::Microsoft.LightSwitch.EntitySetValidationResultsBuilder r)
             {
-                d.Contacts_Validate(e, r);
+                d.Suburbs_Validate(e, r);
             }
-            private static global::System.Linq.Expressions.Expression<global::System.Func<global::LightSwitchApplication.Contact, bool>> __Contacts_Filter(global::LightSwitchApplication.ApplicationDataService d)
+            private static global::System.Linq.Expressions.Expression<global::System.Func<global::LightSwitchApplication.Suburb, bool>> __Suburbs_Filter(global::LightSwitchApplication.ApplicationDataService d)
             {
-                global::System.Linq.Expressions.Expression<global::System.Func<global::LightSwitchApplication.Contact, bool>> filter = null;
-                d.Contacts_Filter(ref filter);
+                global::System.Linq.Expressions.Expression<global::System.Func<global::LightSwitchApplication.Suburb, bool>> filter = null;
+                d.Suburbs_Filter(ref filter);
+                return filter;
+            }
+            
+            [global::System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+            [global::System.Diagnostics.DebuggerBrowsable(global::System.Diagnostics.DebuggerBrowsableState.Never)]
+            private static readonly global::Microsoft.LightSwitch.Details.Framework.Server.EntitySetEntry<global::LightSwitchApplication.ApplicationDataService, global::LightSwitchApplication.State>
+                __StatesEntry = new global::Microsoft.LightSwitch.Details.Framework.Server.EntitySetEntry<global::LightSwitchApplication.ApplicationDataService, global::LightSwitchApplication.State>(
+                    "States",
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__States_CanInsert,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__States_CanUpdate,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__States_CanDelete,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__States_CanRead,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__States_Inserting,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__States_Inserted,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__States_Updating,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__States_Updated,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__States_Deleting,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__States_Deleted,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__States_Validate,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__States_Filter);
+            private static bool __States_CanInsert(global::LightSwitchApplication.ApplicationDataService d)
+            {
+                bool result = true;
+                d.States_CanInsert(ref result);
+                return result;
+            }
+            private static bool __States_CanUpdate(global::LightSwitchApplication.ApplicationDataService d)
+            {
+                bool result = true;
+                d.States_CanUpdate(ref result);
+                return result;
+            }
+            private static bool __States_CanDelete(global::LightSwitchApplication.ApplicationDataService d)
+            {
+                bool result = true;
+                d.States_CanDelete(ref result);
+                return result;
+            }
+            private static bool __States_CanRead(global::LightSwitchApplication.ApplicationDataService d)
+            {
+                bool result = true;
+                d.States_CanRead(ref result);
+                return result;
+            }
+            private static void __States_Inserting(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.State e)
+            {
+                d.States_Inserting(e);
+            }
+            private static void __States_Inserted(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.State e)
+            {
+                d.States_Inserted(e);
+            }
+            private static void __States_Updating(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.State e)
+            {
+                d.States_Updating(e);
+            }
+            private static void __States_Updated(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.State e)
+            {
+                d.States_Updated(e);
+            }
+            private static void __States_Deleting(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.State e)
+            {
+                d.States_Deleting(e);
+            }
+            private static void __States_Deleted(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.State e)
+            {
+                d.States_Deleted(e);
+            }
+            private static void __States_Validate(global::LightSwitchApplication.ApplicationDataService d, global::LightSwitchApplication.State e, global::Microsoft.LightSwitch.EntitySetValidationResultsBuilder r)
+            {
+                d.States_Validate(e, r);
+            }
+            private static global::System.Linq.Expressions.Expression<global::System.Func<global::LightSwitchApplication.State, bool>> __States_Filter(global::LightSwitchApplication.ApplicationDataService d)
+            {
+                global::System.Linq.Expressions.Expression<global::System.Func<global::LightSwitchApplication.State, bool>> filter = null;
+                d.States_Filter(ref filter);
                 return filter;
             }
             
@@ -489,6 +616,40 @@ namespace LightSwitchApplication
             private static void __SaveChanges_Failed(global::LightSwitchApplication.ApplicationDataService d, object[] args, global::System.Exception ex)
             {
                 d.SaveChanges_ExecuteFailed(ex);
+            }
+            
+            [global::System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+            [global::System.Diagnostics.DebuggerBrowsable(global::System.Diagnostics.DebuggerBrowsableState.Never)]
+            private static readonly global::Microsoft.LightSwitch.Details.Framework.Server.QueryOperationEntry<global::LightSwitchApplication.ApplicationDataService, global::LightSwitchApplication.Contact>
+                __ContactByNameEntry = new global::Microsoft.LightSwitch.Details.Framework.Server.QueryOperationEntry<global::LightSwitchApplication.ApplicationDataService, global::LightSwitchApplication.Contact>(
+                    "ContactByName",
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__ContactByName_CanExecute,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__ContactByName_Executing,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__ContactByName_Executed,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__ContactByName_Failed,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__ContactByName_PreprocessQuery);
+            private static bool __ContactByName_CanExecute(global::LightSwitchApplication.ApplicationDataService d, bool r)
+            {
+                d.ContactByName_CanExecute(ref r);
+                return r;
+            }
+            private static void __ContactByName_Executing(global::LightSwitchApplication.ApplicationDataService d, object[] args)
+            {
+                d.ContactByName_Executing((string)args[0]);
+            }
+            private static void __ContactByName_Executed(global::LightSwitchApplication.ApplicationDataService d, object[] args)
+            {
+                d.ContactByName_Executed((string)args[0], (global::System.Collections.Generic.IEnumerable<global::LightSwitchApplication.Contact>)args[1]);
+            }
+            private static void __ContactByName_Failed(global::LightSwitchApplication.ApplicationDataService d, object[] args, global::System.Exception ex)
+            {
+                d.ContactByName_ExecuteFailed((string)args[0], ex);
+            }
+            private static global::System.Linq.IQueryable __ContactByName_PreprocessQuery(global::LightSwitchApplication.ApplicationDataService d, object[] args)
+            {
+                global::System.Linq.IQueryable<global::LightSwitchApplication.Contact> query = (global::System.Linq.IQueryable<global::LightSwitchApplication.Contact>)args[1];
+                d.ContactByName_PreprocessQuery((string)args[0], ref query);
+                return query;
             }
             
             [global::System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
@@ -527,35 +688,35 @@ namespace LightSwitchApplication
             
             [global::System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
             [global::System.Diagnostics.DebuggerBrowsable(global::System.Diagnostics.DebuggerBrowsableState.Never)]
-            private static readonly global::Microsoft.LightSwitch.Details.Framework.Server.QueryOperationEntry<global::LightSwitchApplication.ApplicationDataService, global::LightSwitchApplication.Contact>
-                __ContactByNameEntry = new global::Microsoft.LightSwitch.Details.Framework.Server.QueryOperationEntry<global::LightSwitchApplication.ApplicationDataService, global::LightSwitchApplication.Contact>(
-                    "ContactByName",
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__ContactByName_CanExecute,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__ContactByName_Executing,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__ContactByName_Executed,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__ContactByName_Failed,
-                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__ContactByName_PreprocessQuery);
-            private static bool __ContactByName_CanExecute(global::LightSwitchApplication.ApplicationDataService d, bool r)
+            private static readonly global::Microsoft.LightSwitch.Details.Framework.Server.QueryOperationEntry<global::LightSwitchApplication.ApplicationDataService, global::LightSwitchApplication.Matter>
+                __MatterBySuburbEntry = new global::Microsoft.LightSwitch.Details.Framework.Server.QueryOperationEntry<global::LightSwitchApplication.ApplicationDataService, global::LightSwitchApplication.Matter>(
+                    "MatterBySuburb",
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__MatterBySuburb_CanExecute,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__MatterBySuburb_Executing,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__MatterBySuburb_Executed,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__MatterBySuburb_Failed,
+                    global::LightSwitchApplication.ApplicationDataService.DetailsClass.__MatterBySuburb_PreprocessQuery);
+            private static bool __MatterBySuburb_CanExecute(global::LightSwitchApplication.ApplicationDataService d, bool r)
             {
-                d.ContactByName_CanExecute(ref r);
+                d.MatterBySuburb_CanExecute(ref r);
                 return r;
             }
-            private static void __ContactByName_Executing(global::LightSwitchApplication.ApplicationDataService d, object[] args)
+            private static void __MatterBySuburb_Executing(global::LightSwitchApplication.ApplicationDataService d, object[] args)
             {
-                d.ContactByName_Executing((string)args[0]);
+                d.MatterBySuburb_Executing((string)args[0]);
             }
-            private static void __ContactByName_Executed(global::LightSwitchApplication.ApplicationDataService d, object[] args)
+            private static void __MatterBySuburb_Executed(global::LightSwitchApplication.ApplicationDataService d, object[] args)
             {
-                d.ContactByName_Executed((string)args[0], (global::System.Collections.Generic.IEnumerable<global::LightSwitchApplication.Contact>)args[1]);
+                d.MatterBySuburb_Executed((string)args[0], (global::System.Collections.Generic.IEnumerable<global::LightSwitchApplication.Matter>)args[1]);
             }
-            private static void __ContactByName_Failed(global::LightSwitchApplication.ApplicationDataService d, object[] args, global::System.Exception ex)
+            private static void __MatterBySuburb_Failed(global::LightSwitchApplication.ApplicationDataService d, object[] args, global::System.Exception ex)
             {
-                d.ContactByName_ExecuteFailed((string)args[0], ex);
+                d.MatterBySuburb_ExecuteFailed((string)args[0], ex);
             }
-            private static global::System.Linq.IQueryable __ContactByName_PreprocessQuery(global::LightSwitchApplication.ApplicationDataService d, object[] args)
+            private static global::System.Linq.IQueryable __MatterBySuburb_PreprocessQuery(global::LightSwitchApplication.ApplicationDataService d, object[] args)
             {
-                global::System.Linq.IQueryable<global::LightSwitchApplication.Contact> query = (global::System.Linq.IQueryable<global::LightSwitchApplication.Contact>)args[1];
-                d.ContactByName_PreprocessQuery((string)args[0], ref query);
+                global::System.Linq.IQueryable<global::LightSwitchApplication.Matter> query = (global::System.Linq.IQueryable<global::LightSwitchApplication.Matter>)args[1];
+                d.MatterBySuburb_PreprocessQuery((string)args[0], ref query);
                 return query;
             }
     

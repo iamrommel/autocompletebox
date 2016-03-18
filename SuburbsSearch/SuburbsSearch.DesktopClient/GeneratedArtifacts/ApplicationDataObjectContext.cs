@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 // Original file name:
-// Generation date: 18-Mar-16 12:26:27 PM
+// Generation date: 18-Mar-16 2:00:25 PM
 namespace LightSwitchApplication.Implementation
 {
     
@@ -61,22 +61,22 @@ namespace LightSwitchApplication.Implementation
             return null;
         }
         /// <summary>
-        /// There are no comments for Suburbs in the schema.
+        /// There are no comments for Contacts in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Data.Services.Client.DataServiceQuery<Suburb> Suburbs
+        public global::System.Data.Services.Client.DataServiceQuery<Contact> Contacts
         {
             get
             {
-                if ((this._Suburbs == null))
+                if ((this._Contacts == null))
                 {
-                    this._Suburbs = base.CreateQuery<Suburb>("Suburbs");
+                    this._Contacts = base.CreateQuery<Contact>("Contacts");
                 }
-                return this._Suburbs;
+                return this._Contacts;
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Data.Services.Client.DataServiceQuery<Suburb> _Suburbs;
+        private global::System.Data.Services.Client.DataServiceQuery<Contact> _Contacts;
         /// <summary>
         /// There are no comments for Matters in the schema.
         /// </summary>
@@ -95,29 +95,46 @@ namespace LightSwitchApplication.Implementation
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
         private global::System.Data.Services.Client.DataServiceQuery<Matter> _Matters;
         /// <summary>
-        /// There are no comments for Contacts in the schema.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Data.Services.Client.DataServiceQuery<Contact> Contacts
-        {
-            get
-            {
-                if ((this._Contacts == null))
-                {
-                    this._Contacts = base.CreateQuery<Contact>("Contacts");
-                }
-                return this._Contacts;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Data.Services.Client.DataServiceQuery<Contact> _Contacts;
-        /// <summary>
         /// There are no comments for Suburbs in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public void AddToSuburbs(Suburb suburb)
+        public global::System.Data.Services.Client.DataServiceQuery<Suburb> Suburbs
         {
-            base.AddObject("Suburbs", suburb);
+            get
+            {
+                if ((this._Suburbs == null))
+                {
+                    this._Suburbs = base.CreateQuery<Suburb>("Suburbs");
+                }
+                return this._Suburbs;
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Data.Services.Client.DataServiceQuery<Suburb> _Suburbs;
+        /// <summary>
+        /// There are no comments for States in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Data.Services.Client.DataServiceQuery<State> States
+        {
+            get
+            {
+                if ((this._States == null))
+                {
+                    this._States = base.CreateQuery<State>("States");
+                }
+                return this._States;
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Data.Services.Client.DataServiceQuery<State> _States;
+        /// <summary>
+        /// There are no comments for Contacts in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public void AddToContacts(Contact contact)
+        {
+            base.AddObject("Contacts", contact);
         }
         /// <summary>
         /// There are no comments for Matters in the schema.
@@ -128,12 +145,20 @@ namespace LightSwitchApplication.Implementation
             base.AddObject("Matters", matter);
         }
         /// <summary>
-        /// There are no comments for Contacts in the schema.
+        /// There are no comments for Suburbs in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public void AddToContacts(Contact contact)
+        public void AddToSuburbs(Suburb suburb)
         {
-            base.AddObject("Contacts", contact);
+            base.AddObject("Suburbs", suburb);
+        }
+        /// <summary>
+        /// There are no comments for States in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public void AddToStates(State state)
+        {
+            base.AddObject("States", state);
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
         private abstract class GeneratedEdmModel
@@ -146,26 +171,7 @@ namespace LightSwitchApplication.Implementation
                 "ices/metadata\" m:DataServiceVersion=\"1.0\" m:MaxDataServiceVersion=\"3.0\"><Schema " +
                 "xmlns:annotation=\"http://schemas.microsoft.com/ado/2009/02/edm/annotation\" Names" +
                 "pace=\"LightSwitchApplication\" Alias=\"Self\" xmlns=\"http://schemas.microsoft.com/a" +
-                "do/2008/09/edm\"><EntityType Name=\"Suburb\"><Key><PropertyRef Name=\"Id\" /></Key><P" +
-                "roperty Name=\"Id\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGeneratedPat" +
-                "tern=\"Identity\" /><Property Name=\"Locality\" Type=\"Edm.String\" MaxLength=\"255\" />" +
-                "<Property Name=\"PostCode\" Type=\"Edm.String\" MaxLength=\"255\" /><Property Name=\"Ro" +
-                "wVersion\" Type=\"Edm.Binary\" Nullable=\"false\" ConcurrencyMode=\"Fixed\" annotation:" +
-                "StoreGeneratedPattern=\"Computed\" /><NavigationProperty Name=\"Matters\" Relationsh" +
-                "ip=\"LightSwitchApplication.Matter_Suburb\" ToRole=\"Matter\" FromRole=\"Suburb\" /></" +
-                "EntityType><EntityType Name=\"Matter\"><Key><PropertyRef Name=\"Id\" /></Key><Proper" +
-                "ty Name=\"Id\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGeneratedPattern=" +
-                "\"Identity\" /><Property Name=\"Name\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=" +
-                "\"255\" /><Property Name=\"Matter_Suburb\" Type=\"Edm.Int32\" /><Property Name=\"Matter" +
-                "_Contact\" Type=\"Edm.Int32\" /><Property Name=\"CreatedBy\" Type=\"Edm.String\" MaxLen" +
-                "gth=\"255\" /><Property Name=\"Created\" Type=\"Edm.DateTimeOffset\" /><Property Name=" +
-                "\"ModifiedBy\" Type=\"Edm.String\" MaxLength=\"255\" /><Property Name=\"Modified\" Type=" +
-                "\"Edm.DateTimeOffset\" /><Property Name=\"RowVersion\" Type=\"Edm.Binary\" Nullable=\"f" +
-                "alse\" ConcurrencyMode=\"Fixed\" annotation:StoreGeneratedPattern=\"Computed\" /><Nav" +
-                "igationProperty Name=\"Suburb\" Relationship=\"LightSwitchApplication.Matter_Suburb" +
-                "\" ToRole=\"Suburb\" FromRole=\"Matter\" /><NavigationProperty Name=\"Contact\" Relatio" +
-                "nship=\"LightSwitchApplication.Matter_Contact\" ToRole=\"Contact\" FromRole=\"Matter\"" +
-                " /></EntityType><EntityType Name=\"Contact\"><Key><PropertyRef Name=\"Id\" /></Key><" +
+                "do/2008/09/edm\"><EntityType Name=\"Contact\"><Key><PropertyRef Name=\"Id\" /></Key><" +
                 "Property Name=\"Id\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGeneratedPa" +
                 "ttern=\"Identity\" /><Property Name=\"Name\" Type=\"Edm.String\" Nullable=\"false\" MaxL" +
                 "ength=\"255\" /><Property Name=\"CreatedBy\" Type=\"Edm.String\" MaxLength=\"255\" /><Pr" +
@@ -174,33 +180,74 @@ namespace LightSwitchApplication.Implementation
                 "fset\" /><Property Name=\"RowVersion\" Type=\"Edm.Binary\" Nullable=\"false\" Concurren" +
                 "cyMode=\"Fixed\" annotation:StoreGeneratedPattern=\"Computed\" /><NavigationProperty" +
                 " Name=\"Matters\" Relationship=\"LightSwitchApplication.Matter_Contact\" ToRole=\"Mat" +
-                "ter\" FromRole=\"Contact\" /></EntityType><Association Name=\"Matter_Suburb\"><End Ro" +
-                "le=\"Suburb\" Type=\"LightSwitchApplication.Suburb\" Multiplicity=\"0..1\" /><End Role" +
-                "=\"Matter\" Type=\"LightSwitchApplication.Matter\" Multiplicity=\"*\" /><ReferentialCo" +
-                "nstraint><Principal Role=\"Suburb\"><PropertyRef Name=\"Id\" /></Principal><Dependen" +
-                "t Role=\"Matter\"><PropertyRef Name=\"Matter_Suburb\" /></Dependent></ReferentialCon" +
-                "straint></Association><Association Name=\"Matter_Contact\"><End Role=\"Contact\" Typ" +
-                "e=\"LightSwitchApplication.Contact\" Multiplicity=\"0..1\" /><End Role=\"Matter\" Type" +
-                "=\"LightSwitchApplication.Matter\" Multiplicity=\"*\" /><ReferentialConstraint><Prin" +
-                "cipal Role=\"Contact\"><PropertyRef Name=\"Id\" /></Principal><Dependent Role=\"Matte" +
-                "r\"><PropertyRef Name=\"Matter_Contact\" /></Dependent></ReferentialConstraint></As" +
-                "sociation><EntityContainer Name=\"ApplicationData\" m:IsDefaultEntityContainer=\"tr" +
-                "ue\"><EntitySet Name=\"Suburbs\" EntityType=\"LightSwitchApplication.Suburb\" /><Enti" +
-                "tySet Name=\"Matters\" EntityType=\"LightSwitchApplication.Matter\" /><EntitySet Nam" +
-                "e=\"Contacts\" EntityType=\"LightSwitchApplication.Contact\" /><AssociationSet Name=" +
-                "\"Matter_Suburb\" Association=\"LightSwitchApplication.Matter_Suburb\"><End Role=\"Su" +
-                "burb\" EntitySet=\"Suburbs\" /><End Role=\"Matter\" EntitySet=\"Matters\" /></Associati" +
-                "onSet><AssociationSet Name=\"Matter_Contact\" Association=\"LightSwitchApplication." +
-                "Matter_Contact\"><End Role=\"Contact\" EntitySet=\"Contacts\" /><End Role=\"Matter\" En" +
-                "titySet=\"Matters\" /></AssociationSet><FunctionImport Name=\"SuburbByLocality\" Ret" +
-                "urnType=\"Collection(LightSwitchApplication.Suburb)\" EntitySet=\"Suburbs\" m:HttpMe" +
-                "thod=\"GET\"><Parameter Name=\"Locality\" Type=\"Edm.String\" Mode=\"In\" /></FunctionIm" +
-                "port><FunctionImport Name=\"ContactByName\" ReturnType=\"Collection(LightSwitchAppl" +
-                "ication.Contact)\" EntitySet=\"Contacts\" m:HttpMethod=\"GET\"><Parameter Name=\"Name\"" +
-                " Type=\"Edm.String\" Mode=\"In\" /></FunctionImport><FunctionImport Name=\"Microsoft_" +
-                "LightSwitch_GetCanInformation\" ReturnType=\"Edm.String\" m:HttpMethod=\"GET\"><Param" +
-                "eter Name=\"dataServiceMembers\" Type=\"Edm.String\" Mode=\"In\" /></FunctionImport></" +
-                "EntityContainer></Schema></edmx:DataServices></edmx:Edmx>";
+                "ter\" FromRole=\"Contact\" /></EntityType><EntityType Name=\"Matter\"><Key><PropertyR" +
+                "ef Name=\"Id\" /></Key><Property Name=\"Id\" Type=\"Edm.Int32\" Nullable=\"false\" annot" +
+                "ation:StoreGeneratedPattern=\"Identity\" /><Property Name=\"Name\" Type=\"Edm.String\"" +
+                " Nullable=\"false\" MaxLength=\"255\" /><Property Name=\"Matter_Suburb\" Type=\"Edm.Int" +
+                "32\" /><Property Name=\"Matter_Contact\" Type=\"Edm.Int32\" /><Property Name=\"Created" +
+                "By\" Type=\"Edm.String\" MaxLength=\"255\" /><Property Name=\"Created\" Type=\"Edm.DateT" +
+                "imeOffset\" /><Property Name=\"ModifiedBy\" Type=\"Edm.String\" MaxLength=\"255\" /><Pr" +
+                "operty Name=\"Modified\" Type=\"Edm.DateTimeOffset\" /><Property Name=\"RowVersion\" T" +
+                "ype=\"Edm.Binary\" Nullable=\"false\" ConcurrencyMode=\"Fixed\" annotation:StoreGenera" +
+                "tedPattern=\"Computed\" /><NavigationProperty Name=\"Suburb\" Relationship=\"LightSwi" +
+                "tchApplication.Matter_Suburb\" ToRole=\"Suburb\" FromRole=\"Matter\" /><NavigationPro" +
+                "perty Name=\"Contact\" Relationship=\"LightSwitchApplication.Matter_Contact\" ToRole" +
+                "=\"Contact\" FromRole=\"Matter\" /></EntityType><EntityType Name=\"Suburb\"><Key><Prop" +
+                "ertyRef Name=\"Id\" /></Key><Property Name=\"Id\" Type=\"Edm.Int32\" Nullable=\"false\" " +
+                "annotation:StoreGeneratedPattern=\"Identity\" /><Property Name=\"Locality\" Type=\"Ed" +
+                "m.String\" MaxLength=\"255\" /><Property Name=\"PostCode\" Type=\"Edm.String\" MaxLengt" +
+                "h=\"255\" /><Property Name=\"Suburb_State\" Type=\"Edm.Int32\" /><Property Name=\"RowVe" +
+                "rsion\" Type=\"Edm.Binary\" Nullable=\"false\" ConcurrencyMode=\"Fixed\" annotation:Sto" +
+                "reGeneratedPattern=\"Computed\" /><NavigationProperty Name=\"Matters\" Relationship=" +
+                "\"LightSwitchApplication.Matter_Suburb\" ToRole=\"Matter\" FromRole=\"Suburb\" /><Navi" +
+                "gationProperty Name=\"State\" Relationship=\"LightSwitchApplication.Suburb_State\" T" +
+                "oRole=\"State\" FromRole=\"Suburb\" /></EntityType><EntityType Name=\"State\"><Key><Pr" +
+                "opertyRef Name=\"Id\" /></Key><Property Name=\"Id\" Type=\"Edm.Int32\" Nullable=\"false" +
+                "\" annotation:StoreGeneratedPattern=\"Identity\" /><Property Name=\"Name\" Type=\"Edm." +
+                "String\" Nullable=\"false\" MaxLength=\"255\" /><Property Name=\"CreatedBy\" Type=\"Edm." +
+                "String\" MaxLength=\"255\" /><Property Name=\"Created\" Type=\"Edm.DateTimeOffset\" /><" +
+                "Property Name=\"ModifiedBy\" Type=\"Edm.String\" MaxLength=\"255\" /><Property Name=\"M" +
+                "odified\" Type=\"Edm.DateTimeOffset\" /><Property Name=\"RowVersion\" Type=\"Edm.Binar" +
+                "y\" Nullable=\"false\" ConcurrencyMode=\"Fixed\" annotation:StoreGeneratedPattern=\"Co" +
+                "mputed\" /><NavigationProperty Name=\"Suburbs\" Relationship=\"LightSwitchApplicatio" +
+                "n.Suburb_State\" ToRole=\"Suburb\" FromRole=\"State\" /></EntityType><Association Nam" +
+                "e=\"Matter_Contact\"><End Role=\"Contact\" Type=\"LightSwitchApplication.Contact\" Mul" +
+                "tiplicity=\"0..1\" /><End Role=\"Matter\" Type=\"LightSwitchApplication.Matter\" Multi" +
+                "plicity=\"*\" /><ReferentialConstraint><Principal Role=\"Contact\"><PropertyRef Name" +
+                "=\"Id\" /></Principal><Dependent Role=\"Matter\"><PropertyRef Name=\"Matter_Contact\" " +
+                "/></Dependent></ReferentialConstraint></Association><Association Name=\"Matter_Su" +
+                "burb\"><End Role=\"Suburb\" Type=\"LightSwitchApplication.Suburb\" Multiplicity=\"0..1" +
+                "\" /><End Role=\"Matter\" Type=\"LightSwitchApplication.Matter\" Multiplicity=\"*\" /><" +
+                "ReferentialConstraint><Principal Role=\"Suburb\"><PropertyRef Name=\"Id\" /></Princi" +
+                "pal><Dependent Role=\"Matter\"><PropertyRef Name=\"Matter_Suburb\" /></Dependent></R" +
+                "eferentialConstraint></Association><Association Name=\"Suburb_State\"><End Role=\"S" +
+                "tate\" Type=\"LightSwitchApplication.State\" Multiplicity=\"0..1\" /><End Role=\"Subur" +
+                "b\" Type=\"LightSwitchApplication.Suburb\" Multiplicity=\"*\" /><ReferentialConstrain" +
+                "t><Principal Role=\"State\"><PropertyRef Name=\"Id\" /></Principal><Dependent Role=\"" +
+                "Suburb\"><PropertyRef Name=\"Suburb_State\" /></Dependent></ReferentialConstraint><" +
+                "/Association><EntityContainer Name=\"ApplicationData\" m:IsDefaultEntityContainer=" +
+                "\"true\"><EntitySet Name=\"Contacts\" EntityType=\"LightSwitchApplication.Contact\" />" +
+                "<EntitySet Name=\"Matters\" EntityType=\"LightSwitchApplication.Matter\" /><EntitySe" +
+                "t Name=\"Suburbs\" EntityType=\"LightSwitchApplication.Suburb\" /><EntitySet Name=\"S" +
+                "tates\" EntityType=\"LightSwitchApplication.State\" /><AssociationSet Name=\"Matter_" +
+                "Contact\" Association=\"LightSwitchApplication.Matter_Contact\"><End Role=\"Contact\"" +
+                " EntitySet=\"Contacts\" /><End Role=\"Matter\" EntitySet=\"Matters\" /></AssociationSe" +
+                "t><AssociationSet Name=\"Matter_Suburb\" Association=\"LightSwitchApplication.Matte" +
+                "r_Suburb\"><End Role=\"Suburb\" EntitySet=\"Suburbs\" /><End Role=\"Matter\" EntitySet=" +
+                "\"Matters\" /></AssociationSet><AssociationSet Name=\"Suburb_State\" Association=\"Li" +
+                "ghtSwitchApplication.Suburb_State\"><End Role=\"State\" EntitySet=\"States\" /><End R" +
+                "ole=\"Suburb\" EntitySet=\"Suburbs\" /></AssociationSet><FunctionImport Name=\"Contac" +
+                "tByName\" ReturnType=\"Collection(LightSwitchApplication.Contact)\" EntitySet=\"Cont" +
+                "acts\" m:HttpMethod=\"GET\"><Parameter Name=\"Name\" Type=\"Edm.String\" Mode=\"In\" /></" +
+                "FunctionImport><FunctionImport Name=\"SuburbByLocality\" ReturnType=\"Collection(Li" +
+                "ghtSwitchApplication.Suburb)\" EntitySet=\"Suburbs\" m:HttpMethod=\"GET\"><Parameter " +
+                "Name=\"Locality\" Type=\"Edm.String\" Mode=\"In\" /></FunctionImport><FunctionImport N" +
+                "ame=\"MatterBySuburb\" ReturnType=\"Collection(LightSwitchApplication.Matter)\" Enti" +
+                "tySet=\"Matters\" m:HttpMethod=\"GET\"><Parameter Name=\"SuburbLocality\" Type=\"Edm.St" +
+                "ring\" Mode=\"In\" /></FunctionImport><FunctionImport Name=\"Microsoft_LightSwitch_G" +
+                "etCanInformation\" ReturnType=\"Edm.String\" m:HttpMethod=\"GET\"><Parameter Name=\"da" +
+                "taServiceMembers\" Type=\"Edm.String\" Mode=\"In\" /></FunctionImport></EntityContain" +
+                "er></Schema></edmx:DataServices></edmx:Edmx>";
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
             private static string GetConcatenatedEdmxString()
             {
@@ -233,27 +280,29 @@ namespace LightSwitchApplication.Implementation
         }
     }
     /// <summary>
-    /// There are no comments for LightSwitchApplication.Suburb in the schema.
+    /// There are no comments for LightSwitchApplication.Contact in the schema.
     /// </summary>
     /// <KeyProperties>
     /// Id
     /// </KeyProperties>
-    [global::System.Data.Services.Common.EntitySetAttribute("Suburbs")]
+    [global::System.Data.Services.Common.EntitySetAttribute("Contacts")]
     [global::System.Data.Services.Common.DataServiceKeyAttribute("Id")]
-    public partial class Suburb : global::Microsoft.LightSwitch.ClientGenerated.Implementation.EntityBase, global::System.ComponentModel.INotifyPropertyChanged
+    public partial class Contact : global::Microsoft.LightSwitch.ClientGenerated.Implementation.EntityBase, global::System.ComponentModel.INotifyPropertyChanged
     {
         /// <summary>
-        /// Create a new Suburb object.
+        /// Create a new Contact object.
         /// </summary>
         /// <param name="ID">Initial value of Id.</param>
+        /// <param name="name">Initial value of Name.</param>
         /// <param name="rowVersion">Initial value of RowVersion.</param>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static Suburb CreateSuburb(int ID, byte[] rowVersion)
+        public static Contact CreateContact(int ID, string name, byte[] rowVersion)
         {
-            Suburb suburb = new Suburb();
-            suburb.Id = ID;
-            suburb.RowVersion = rowVersion;
-            return suburb;
+            Contact contact = new Contact();
+            contact.Id = ID;
+            contact.Name = name;
+            contact.RowVersion = rowVersion;
+            return contact;
         }
         /// <summary>
         /// There are no comments for Property Id in the schema.
@@ -282,57 +331,135 @@ namespace LightSwitchApplication.Implementation
         partial void OnIdChanging(int value);
         partial void OnIdChanged();
         /// <summary>
-        /// There are no comments for Property Locality in the schema.
+        /// There are no comments for Property Name in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string Locality
+        public string Name
         {
             get
             {
-                return this._Locality;
+                return this._Name;
             }
             set
             {
-                this.OnLocalityChanging(value);
-                if (object.Equals(this.Locality, value))
+                this.OnNameChanging(value);
+                if (object.Equals(this.Name, value))
                 {
                     return;
                 }
-                this._Locality = value;
-                this.OnLocalityChanged();
-                this.OnPropertyChanged("Locality");
+                this._Name = value;
+                this.OnNameChanged();
+                this.OnPropertyChanged("Name");
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _Locality;
-        partial void OnLocalityChanging(string value);
-        partial void OnLocalityChanged();
+        private string _Name;
+        partial void OnNameChanging(string value);
+        partial void OnNameChanged();
         /// <summary>
-        /// There are no comments for Property PostCode in the schema.
+        /// There are no comments for Property CreatedBy in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string PostCode
+        public string CreatedBy
         {
             get
             {
-                return this._PostCode;
+                return this._CreatedBy;
             }
             set
             {
-                this.OnPostCodeChanging(value);
-                if (object.Equals(this.PostCode, value))
+                this.OnCreatedByChanging(value);
+                if (object.Equals(this.CreatedBy, value))
                 {
                     return;
                 }
-                this._PostCode = value;
-                this.OnPostCodeChanged();
-                this.OnPropertyChanged("PostCode");
+                this._CreatedBy = value;
+                this.OnCreatedByChanged();
+                this.OnPropertyChanged("CreatedBy");
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _PostCode;
-        partial void OnPostCodeChanging(string value);
-        partial void OnPostCodeChanged();
+        private string _CreatedBy;
+        partial void OnCreatedByChanging(string value);
+        partial void OnCreatedByChanged();
+        /// <summary>
+        /// There are no comments for Property Created in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<global::System.DateTimeOffset> Created
+        {
+            get
+            {
+                return this._Created;
+            }
+            set
+            {
+                this.OnCreatedChanging(value);
+                if (object.Equals(this.Created, value))
+                {
+                    return;
+                }
+                this._Created = value;
+                this.OnCreatedChanged();
+                this.OnPropertyChanged("Created");
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<global::System.DateTimeOffset> _Created;
+        partial void OnCreatedChanging(global::System.Nullable<global::System.DateTimeOffset> value);
+        partial void OnCreatedChanged();
+        /// <summary>
+        /// There are no comments for Property ModifiedBy in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string ModifiedBy
+        {
+            get
+            {
+                return this._ModifiedBy;
+            }
+            set
+            {
+                this.OnModifiedByChanging(value);
+                if (object.Equals(this.ModifiedBy, value))
+                {
+                    return;
+                }
+                this._ModifiedBy = value;
+                this.OnModifiedByChanged();
+                this.OnPropertyChanged("ModifiedBy");
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _ModifiedBy;
+        partial void OnModifiedByChanging(string value);
+        partial void OnModifiedByChanged();
+        /// <summary>
+        /// There are no comments for Property Modified in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<global::System.DateTimeOffset> Modified
+        {
+            get
+            {
+                return this._Modified;
+            }
+            set
+            {
+                this.OnModifiedChanging(value);
+                if (object.Equals(this.Modified, value))
+                {
+                    return;
+                }
+                this._Modified = value;
+                this.OnModifiedChanged();
+                this.OnPropertyChanged("Modified");
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<global::System.DateTimeOffset> _Modified;
+        partial void OnModifiedChanging(global::System.Nullable<global::System.DateTimeOffset> value);
+        partial void OnModifiedChanged();
         /// <summary>
         /// There are no comments for Property RowVersion in the schema.
         /// </summary>
@@ -768,29 +895,266 @@ namespace LightSwitchApplication.Implementation
         }
     }
     /// <summary>
-    /// There are no comments for LightSwitchApplication.Contact in the schema.
+    /// There are no comments for LightSwitchApplication.Suburb in the schema.
     /// </summary>
     /// <KeyProperties>
     /// Id
     /// </KeyProperties>
-    [global::System.Data.Services.Common.EntitySetAttribute("Contacts")]
+    [global::System.Data.Services.Common.EntitySetAttribute("Suburbs")]
     [global::System.Data.Services.Common.DataServiceKeyAttribute("Id")]
-    public partial class Contact : global::Microsoft.LightSwitch.ClientGenerated.Implementation.EntityBase, global::System.ComponentModel.INotifyPropertyChanged
+    public partial class Suburb : global::Microsoft.LightSwitch.ClientGenerated.Implementation.EntityBase, global::System.ComponentModel.INotifyPropertyChanged
     {
         /// <summary>
-        /// Create a new Contact object.
+        /// Create a new Suburb object.
+        /// </summary>
+        /// <param name="ID">Initial value of Id.</param>
+        /// <param name="rowVersion">Initial value of RowVersion.</param>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public static Suburb CreateSuburb(int ID, byte[] rowVersion)
+        {
+            Suburb suburb = new Suburb();
+            suburb.Id = ID;
+            suburb.RowVersion = rowVersion;
+            return suburb;
+        }
+        /// <summary>
+        /// There are no comments for Property Id in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public int Id
+        {
+            get
+            {
+                return this._Id;
+            }
+            set
+            {
+                this.OnIdChanging(value);
+                if (object.Equals(this.Id, value))
+                {
+                    return;
+                }
+                this._Id = value;
+                this.OnIdChanged();
+                this.OnPropertyChanged("Id");
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private int _Id;
+        partial void OnIdChanging(int value);
+        partial void OnIdChanged();
+        /// <summary>
+        /// There are no comments for Property Locality in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string Locality
+        {
+            get
+            {
+                return this._Locality;
+            }
+            set
+            {
+                this.OnLocalityChanging(value);
+                if (object.Equals(this.Locality, value))
+                {
+                    return;
+                }
+                this._Locality = value;
+                this.OnLocalityChanged();
+                this.OnPropertyChanged("Locality");
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _Locality;
+        partial void OnLocalityChanging(string value);
+        partial void OnLocalityChanged();
+        /// <summary>
+        /// There are no comments for Property PostCode in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public string PostCode
+        {
+            get
+            {
+                return this._PostCode;
+            }
+            set
+            {
+                this.OnPostCodeChanging(value);
+                if (object.Equals(this.PostCode, value))
+                {
+                    return;
+                }
+                this._PostCode = value;
+                this.OnPostCodeChanged();
+                this.OnPropertyChanged("PostCode");
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private string _PostCode;
+        partial void OnPostCodeChanging(string value);
+        partial void OnPostCodeChanged();
+        /// <summary>
+        /// There are no comments for Property Suburb_State in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<int> Suburb_State
+        {
+            get
+            {
+                return this._Suburb_State;
+            }
+            set
+            {
+                this.OnSuburb_StateChanging(value);
+                if (object.Equals(this.Suburb_State, value))
+                {
+                    return;
+                }
+                this._Suburb_State = value;
+                this.OnSuburb_StateChanged();
+                this.OnPropertyChanged("Suburb_State");
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<int> _Suburb_State;
+        partial void OnSuburb_StateChanging(global::System.Nullable<int> value);
+        partial void OnSuburb_StateChanged();
+        /// <summary>
+        /// There are no comments for Property RowVersion in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public byte[] RowVersion
+        {
+            get
+            {
+                if ((this._RowVersion != null))
+                {
+                    return ((byte[])(this._RowVersion.Clone()));
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            set
+            {
+                this.OnRowVersionChanging(value);
+                if (object.Equals(this.RowVersion, value))
+                {
+                    return;
+                }
+                this._RowVersion = value;
+                this.OnRowVersionChanged();
+                this.OnPropertyChanged("RowVersion");
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private byte[] _RowVersion;
+        partial void OnRowVersionChanging(byte[] value);
+        partial void OnRowVersionChanged();
+        /// <summary>
+        /// There are no comments for Matters in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Data.Services.Client.DataServiceCollection<Matter> Matters
+        {
+            get
+            {
+                this.@__Matters.EnsureValueInitialized();
+                return this._Matters;
+            }
+            set
+            {
+                this._Matters = value;
+                this.OnPropertyChanged("Matters");
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Data.Services.Client.DataServiceCollection<Matter> _Matters = new global::System.Data.Services.Client.DataServiceCollection<Matter>(null, global::System.Data.Services.Client.TrackingMode.None);
+        /// <summary>
+        /// There are no comments for State in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public State State
+        {
+            get
+            {
+                this.@__State.EnsureValueInitialized();
+                return this._State;
+            }
+            set
+            {
+                State previous = this.State;
+                if ((previous == value))
+                {
+                    return;
+                }
+                if ((previous != null))
+                {
+                    this._State = null;
+                    this.@__State.OnValueSet();
+                    previous.Suburbs.Remove(this);
+                }
+                if ((this.___Host != null))
+                {
+                    if ((value != null))
+                    {
+                        this.Suburb_State = value.Id;
+                    }
+                    else
+                    {
+                        this.Suburb_State = default(global::System.Nullable<int>);
+                    }
+                }
+                this._State = value;
+                this.@__State.OnValueSet();
+                if ((value != null))
+                {
+                    value.@__Suburbs.Add(this);
+                }
+                this.___OnPropertyChanged("State");
+                this.OnPropertyChanged("State");
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private State _State;
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public event global::System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        protected virtual void OnPropertyChanged(string property)
+        {
+            if ((this.PropertyChanged != null))
+            {
+                this.PropertyChanged(this, new global::System.ComponentModel.PropertyChangedEventArgs(property));
+            }
+        }
+    }
+    /// <summary>
+    /// There are no comments for LightSwitchApplication.State in the schema.
+    /// </summary>
+    /// <KeyProperties>
+    /// Id
+    /// </KeyProperties>
+    [global::System.Data.Services.Common.EntitySetAttribute("States")]
+    [global::System.Data.Services.Common.DataServiceKeyAttribute("Id")]
+    public partial class State : global::Microsoft.LightSwitch.ClientGenerated.Implementation.EntityBase, global::System.ComponentModel.INotifyPropertyChanged
+    {
+        /// <summary>
+        /// Create a new State object.
         /// </summary>
         /// <param name="ID">Initial value of Id.</param>
         /// <param name="name">Initial value of Name.</param>
         /// <param name="rowVersion">Initial value of RowVersion.</param>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static Contact CreateContact(int ID, string name, byte[] rowVersion)
+        public static State CreateState(int ID, string name, byte[] rowVersion)
         {
-            Contact contact = new Contact();
-            contact.Id = ID;
-            contact.Name = name;
-            contact.RowVersion = rowVersion;
-            return contact;
+            State state = new State();
+            state.Id = ID;
+            state.Name = name;
+            state.RowVersion = rowVersion;
+            return state;
         }
         /// <summary>
         /// There are no comments for Property Id in the schema.
@@ -982,24 +1346,24 @@ namespace LightSwitchApplication.Implementation
         partial void OnRowVersionChanging(byte[] value);
         partial void OnRowVersionChanged();
         /// <summary>
-        /// There are no comments for Matters in the schema.
+        /// There are no comments for Suburbs in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public global::System.Data.Services.Client.DataServiceCollection<Matter> Matters
+        public global::System.Data.Services.Client.DataServiceCollection<Suburb> Suburbs
         {
             get
             {
-                this.@__Matters.EnsureValueInitialized();
-                return this._Matters;
+                this.@__Suburbs.EnsureValueInitialized();
+                return this._Suburbs;
             }
             set
             {
-                this._Matters = value;
-                this.OnPropertyChanged("Matters");
+                this._Suburbs = value;
+                this.OnPropertyChanged("Suburbs");
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private global::System.Data.Services.Client.DataServiceCollection<Matter> _Matters = new global::System.Data.Services.Client.DataServiceCollection<Matter>(null, global::System.Data.Services.Client.TrackingMode.None);
+        private global::System.Data.Services.Client.DataServiceCollection<Suburb> _Suburbs = new global::System.Data.Services.Client.DataServiceCollection<Suburb>(null, global::System.Data.Services.Client.TrackingMode.None);
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
         public event global::System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]

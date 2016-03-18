@@ -351,6 +351,30 @@
                       </ControlPropertySource>
                     </ContentItem.PropertySources>
                   </ContentItem>
+                  <ContentItem
+                    Name="State1"
+                    Kind="Details"
+                    Placement="Description"
+                    DataType="State">
+                    <ContentItem.DataSource>
+                      <ScreenExpressionTree>
+                        <ChainExpression>
+                          <MemberExpression
+                            Member="Suburb/Properties[State]" />
+                        </ChainExpression>
+                      </ScreenExpressionTree>
+                    </ContentItem.DataSource>
+                    <ContentItem
+                      Name="State2"
+                      Kind="Details"
+                      DataType="State">
+                      <ContentItem.DataSource>
+                        <ScreenExpressionTree>
+                          <ChainExpression />
+                        </ScreenExpressionTree>
+                      </ContentItem.DataSource>
+                    </ContentItem>
+                  </ContentItem>
                 </ContentItem>
               </ContentItem>
               <ContentItem
@@ -369,6 +393,26 @@
                         Member="Suburb" />
                       <MemberExpression
                         Member="PostCode" />
+                    </ChainExpression>
+                  </ScreenExpressionTree>
+                </ContentItem.DataSource>
+              </ContentItem>
+              <ContentItem
+                Name="State"
+                Kind="Details"
+                DataType="State"
+                View="Microsoft.LightSwitch.RichClient:Summary">
+                <ContentItem.DataSource>
+                  <ScreenExpressionTree>
+                    <ChainExpression>
+                      <MemberExpression
+                        Member="MatterScreen/Properties[Matters]" />
+                      <MemberExpression
+                        Member="SelectedItem" />
+                      <MemberExpression
+                        Member="Suburb" />
+                      <MemberExpression
+                        Member="State" />
                     </ChainExpression>
                   </ScreenExpressionTree>
                 </ContentItem.DataSource>

@@ -45,6 +45,12 @@
     <ApplicationCommand
       Name="ScreenCommandShowMatterScreen"
       Target="!module/Methods[ShowMatterScreen]" />
+    <ApplicationCommand
+      Name="ScreenCommandShowSearchMatterScreen"
+      Target="!module/Methods[ShowSearchMatterScreen]" />
+    <ApplicationCommand
+      Name="ScreenCommandShowEditableStatesGrid"
+      Target="!module/Methods[ShowEditableStatesGrid]" />
   </Application.Commands>
   <Application.NavigationItems>
     <ApplicationNavigationGroup
@@ -63,6 +69,12 @@
       <ApplicationNavigationLink
         Name="MatterScreen"
         Command="!module/Commands[ScreenCommandShowMatterScreen]" />
+      <ApplicationNavigationLink
+        Name="SearchMatterScreen"
+        Command="!module/Commands[ScreenCommandShowSearchMatterScreen]" />
+      <ApplicationNavigationLink
+        Name="EditableStatesGrid"
+        Command="!module/Commands[ScreenCommandShowEditableStatesGrid]" />
     </ApplicationNavigationGroup>
     <ApplicationNavigationGroup
       Name="Administration">
